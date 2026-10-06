@@ -1,0 +1,13 @@
+site,from,to,code,source,decision
+formworkforconcrete.com,/formwork-for-concrete-design-services/,/,301,WordPress front-page slug (observed),keep
+formworkforconcrete.com,/contact/,/contact-us/,301,WordPress slug guess (observed),keep
+formworkforconcrete.com,/projects/ajax/,/projects/ajax-foundation/,301,WordPress slug guess (observed),keep
+formworkforconcrete.com,/category/blog-post/,/news/,301,thin category archive (in sitemap today),recommended - confirm with owner
+formworkforconcrete.com,/author/pjzadb73wk/,/news/,301,author archive exposing the WP username slug (in sitemap today),recommended - confirm with owner
+formworkforconcrete.com,/feed/,/news/,301,WordPress RSS,recommended - confirm with owner
+formworkforconcrete.com,/news/feed/,/news/,301,WordPress RSS,recommended - confirm with owner
+formworkforconcrete.com,/sitemap_index.xml,/sitemap.xml,301,Yoast sitemap replaced by Next.js sitemap,recommended - confirm with owner
+formworkforconcrete.com,/page-sitemap.xml,/sitemap.xml,301,Yoast sitemap replaced by Next.js sitemap,recommended - confirm with owner
+formworkforconcrete.com,/post-sitemap.xml,/sitemap.xml,301,Yoast sitemap replaced by Next.js sitemap,recommended - confirm with owner
+formworkforconcrete.com,/category-sitemap.xml,/sitemap.xml,301,Yoast sitemap replaced by Next.js sitemap,recommended - confirm with owner
+formworkforconcrete.com,/author-sitemap.xml,/sitemap.xml,301,Yoast sitemap replaced by Next.js sitemap,recommended - confirm with owner

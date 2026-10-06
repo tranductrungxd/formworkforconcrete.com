@@ -1,0 +1,61 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files: real values never leave the machine, the example is tracked
+.env*
+!.env.example
+
+# The rebuild plan holds the Hostinger SSH details (host, port, user, key path), so it stays on the owner's machine
+/plans/
+
+# local scratch: the WordPress extract (page HTML, Elementor JSON, screenshots) and Lighthouse reports
+/extract/
+/lh/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Terraform working data and state can contain sensitive values. Keep the configuration and the
+# dependency lock file, never state, plans or local overrides.
+infrastructure/**/.terraform/
+infrastructure/**/.build/
+infrastructure/**/*.tfstate
+infrastructure/**/*.tfstate.*
+infrastructure/**/*.tfplan
+infrastructure/**/crash.log
+infrastructure/**/crash.*.log
+infrastructure/**/terraform.tfvars
+infrastructure/**/backend.hcl
+
+# The contact service bundle is rebuilt by `pnpm form:build` before every `terraform apply`.
+/services/contact/dist/

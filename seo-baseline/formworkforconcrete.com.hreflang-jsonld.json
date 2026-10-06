@@ -1,0 +1,3980 @@
+{
+ "hreflang": {
+  "https://formworkforconcrete.com/": {},
+  "https://formworkforconcrete.com/author/pjzadb73wk/": {},
+  "https://formworkforconcrete.com/category/blog-post/": {},
+  "https://formworkforconcrete.com/contact-us/": {},
+  "https://formworkforconcrete.com/designing-formwork-for-concrete-with-wood-lumber-panels/": {},
+  "https://formworkforconcrete.com/find-expert-formwork-engineers-and-designers-for-your-project/": {},
+  "https://formworkforconcrete.com/formwork-design-for-a-suspended-concrete-slab/": {},
+  "https://formworkforconcrete.com/formwork-shop-drawings-and-construction-joint-layout/": {},
+  "https://formworkforconcrete.com/how-to-design-formwork-and-scaffolding-components/": {},
+  "https://formworkforconcrete.com/news/": {},
+  "https://formworkforconcrete.com/projects/": {},
+  "https://formworkforconcrete.com/projects/ajax-foundation/": {},
+  "https://formworkforconcrete.com/projects/brb-mbr-structure/": {},
+  "https://formworkforconcrete.com/projects/formwork-belle-project/": {},
+  "https://formworkforconcrete.com/projects/formwork-core-walls/": {},
+  "https://formworkforconcrete.com/projects/formwork-new-house-doka/": {},
+  "https://formworkforconcrete.com/projects/formwork-peitro-carnaghi-foudation/": {},
+  "https://formworkforconcrete.com/projects/formwork-preliminary-treatment-facility/": {},
+  "https://formworkforconcrete.com/projects/formwork-spring-creek-auxiliary-foundation/": {},
+  "https://formworkforconcrete.com/projects/kyle-dam-foundation/": {},
+  "https://formworkforconcrete.com/projects/outlet-spillway-dam/": {},
+  "https://formworkforconcrete.com/projects/pretreatment-structure-foudation-and-intermediate/": {}
+ },
+ "jsonld": {
+  "https://formworkforconcrete.com/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork Design Services | Layouts, BOQ & Pour Sequences",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "about": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/09/formwork-concrete-formwork-detailing-jpg.webp",
+      "datePublished": "2023-07-04T12:54:08+00:00",
+      "dateModified": "2025-07-06T03:14:52+00:00",
+      "description": "Formwork and shoring design for concrete structures - buildable layouts, quantified BOQs and pour sequences. 50+ projects across the US, Canada and Australia.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/09/formwork-concrete-formwork-detailing-jpg.webp",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/09/formwork-concrete-formwork-detailing-jpg.webp",
+      "width": 727,
+      "height": 582,
+      "caption": "Detailed 3D formwork design for complex industrial concrete structure"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/author/pjzadb73wk/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "ProfilePage",
+      "@id": "https://formworkforconcrete.com/author/pjzadb73wk/",
+      "url": "https://formworkforconcrete.com/author/pjzadb73wk/",
+      "name": "pJZadB73Wk, Author at Formwork for concrete",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/author/pjzadb73wk/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/author/pjzadb73wk/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2025/03/Design-Formwork-and-Scaffolding-Components.jpeg",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/author/pjzadb73wk/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/author/pjzadb73wk/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/author/pjzadb73wk/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2025/03/Design-Formwork-and-Scaffolding-Components.jpeg",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2025/03/Design-Formwork-and-Scaffolding-Components.jpeg",
+      "width": 1024,
+      "height": 683,
+      "caption": "Design Formwork and Scaffolding Components"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/author/pjzadb73wk/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Archives for pJZadB73Wk"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://formworkforconcrete.com/#/schema/person/546c53911cc7a6dde9299da59ba9ba36",
+      "name": "pJZadB73Wk",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/person/image/",
+       "url": "https://secure.gravatar.com/avatar/1b99a489a4504c071fd424d813864c639541f2654d5257f40854fcdfc429140f?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/1b99a489a4504c071fd424d813864c639541f2654d5257f40854fcdfc429140f?s=96&d=mm&r=g",
+       "caption": "pJZadB73Wk"
+      },
+      "sameAs": [
+       "https://formworkforconcrete.com"
+      ],
+      "mainEntityOfPage": {
+       "@id": "https://formworkforconcrete.com/author/pjzadb73wk/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/category/blog-post/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://formworkforconcrete.com/category/blog-post/",
+      "url": "https://formworkforconcrete.com/category/blog-post/",
+      "name": "Blog-post Archives - Formwork for concrete",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/category/blog-post/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/category/blog-post/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2025/03/Design-Formwork-and-Scaffolding-Components.jpeg",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/category/blog-post/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/category/blog-post/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2025/03/Design-Formwork-and-Scaffolding-Components.jpeg",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2025/03/Design-Formwork-and-Scaffolding-Components.jpeg",
+      "width": 1024,
+      "height": 683,
+      "caption": "Design Formwork and Scaffolding Components"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/category/blog-post/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog-post"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/contact-us/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/contact-us/",
+      "url": "https://formworkforconcrete.com/contact-us/",
+      "name": "Contact Us - Formwork for concrete",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/contact-us/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/contact-us/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/house-or-villa-under-construction-using-modern-tec-min-scaled.webp",
+      "datePublished": "2023-07-31T12:46:51+00:00",
+      "dateModified": "2025-03-12T05:20:01+00:00",
+      "description": "Get in touch with us for all your concrete formwork design needs. Whether you're working on foundations, walls, slabs, or complex structures, our team is here to provide expert solutions",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/contact-us/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/contact-us/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/contact-us/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/house-or-villa-under-construction-using-modern-tec-min-scaled.webp",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/house-or-villa-under-construction-using-modern-tec-min-scaled.webp",
+      "width": 2560,
+      "height": 1707,
+      "caption": "House under construction using modern formwork techniques"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/contact-us/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Contact Us"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/designing-formwork-for-concrete-with-wood-lumber-panels/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://formworkforconcrete.com/designing-formwork-for-concrete-with-wood-lumber-panels/#article",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/designing-formwork-for-concrete-with-wood-lumber-panels/"
+      },
+      "author": {
+       "name": "pJZadB73Wk",
+       "@id": "https://formworkforconcrete.com/#/schema/person/546c53911cc7a6dde9299da59ba9ba36"
+      },
+      "headline": "How to Design Formwork for Concrete Using Wood Lumber and Panels",
+      "datePublished": "2024-10-10T11:11:00+00:00",
+      "dateModified": "2025-07-06T04:14:31+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://formworkforconcrete.com/designing-formwork-for-concrete-with-wood-lumber-panels/"
+      },
+      "wordCount": 971,
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/designing-formwork-for-concrete-with-wood-lumber-panels/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/handmade-scaffolding-with-wooden-beams-and-bars-in-min-scaled.jpg",
+      "keywords": [
+       "Concrete Construction Services",
+       "Concrete Formwork Design",
+       "Construction Design Services",
+       "Construction Support Services",
+       "Custom Concrete Solutions",
+       "Custom Formwork Solutions",
+       "Engineering Design Services",
+       "Expert Formwork Design",
+       "Formwork Consulting",
+       "Formwork Design Services",
+       "Formwork Planning and Design",
+       "Professional Formwork Design",
+       "Structural Design Services",
+       "Structural Engineering Services",
+       "Temporary Structure Design"
+      ],
+      "articleSection": [
+       "Blog-post"
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/designing-formwork-for-concrete-with-wood-lumber-panels/",
+      "url": "https://formworkforconcrete.com/designing-formwork-for-concrete-with-wood-lumber-panels/",
+      "name": "Designing Formwork for Concrete with Wood Lumber and Panels",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/designing-formwork-for-concrete-with-wood-lumber-panels/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/designing-formwork-for-concrete-with-wood-lumber-panels/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/handmade-scaffolding-with-wooden-beams-and-bars-in-min-scaled.jpg",
+      "datePublished": "2024-10-10T11:11:00+00:00",
+      "dateModified": "2025-07-06T04:14:31+00:00",
+      "description": "Discover how to design formwork for concrete using wood lumber and panels, plus expert formwork design services for efficient construction.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/designing-formwork-for-concrete-with-wood-lumber-panels/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/designing-formwork-for-concrete-with-wood-lumber-panels/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/designing-formwork-for-concrete-with-wood-lumber-panels/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/handmade-scaffolding-with-wooden-beams-and-bars-in-min-scaled.jpg",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/handmade-scaffolding-with-wooden-beams-and-bars-in-min-scaled.jpg",
+      "width": 2560,
+      "height": 1706,
+      "caption": "Design layout of concrete formwork made from wood lumber and plywood panels"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/designing-formwork-for-concrete-with-wood-lumber-panels/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How to Design Formwork for Concrete Using Wood Lumber and Panels"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://formworkforconcrete.com/#/schema/person/546c53911cc7a6dde9299da59ba9ba36",
+      "name": "pJZadB73Wk",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/person/image/",
+       "url": "https://secure.gravatar.com/avatar/1b99a489a4504c071fd424d813864c639541f2654d5257f40854fcdfc429140f?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/1b99a489a4504c071fd424d813864c639541f2654d5257f40854fcdfc429140f?s=96&d=mm&r=g",
+       "caption": "pJZadB73Wk"
+      },
+      "sameAs": [
+       "https://formworkforconcrete.com"
+      ],
+      "url": "https://formworkforconcrete.com/author/pjzadb73wk/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/find-expert-formwork-engineers-and-designers-for-your-project/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://formworkforconcrete.com/find-expert-formwork-engineers-and-designers-for-your-project/#article",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/find-expert-formwork-engineers-and-designers-for-your-project/"
+      },
+      "author": {
+       "name": "pJZadB73Wk",
+       "@id": "https://formworkforconcrete.com/#/schema/person/546c53911cc7a6dde9299da59ba9ba36"
+      },
+      "headline": "Find Expert Formwork Engineers and Designers for Your Project",
+      "datePublished": "2024-11-19T08:43:15+00:00",
+      "dateModified": "2025-07-06T04:03:30+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://formworkforconcrete.com/find-expert-formwork-engineers-and-designers-for-your-project/"
+      },
+      "wordCount": 333,
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/find-expert-formwork-engineers-and-designers-for-your-project/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/11/architects-and-engineers-are-working-together-to-e-min-scaled.jpg",
+      "keywords": [
+       "#BIM",
+       "#BuildingDesign",
+       "#Concrete",
+       "#ConcreteConstruction",
+       "#ConstructionDrawings",
+       "#ConstructionJoints",
+       "#ConstructionPlanning",
+       "#ConstructionSafety",
+       "#Formwork",
+       "#FormworkDesign",
+       "#ProjectManagement",
+       "#QualityControl",
+       "#ShopDrawings",
+       "#StructuralEngineering",
+       "Construction"
+      ],
+      "articleSection": [
+       "Blog-post"
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/find-expert-formwork-engineers-and-designers-for-your-project/",
+      "url": "https://formworkforconcrete.com/find-expert-formwork-engineers-and-designers-for-your-project/",
+      "name": "Hire Expert Formwork Engineers & Designers",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/find-expert-formwork-engineers-and-designers-for-your-project/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/find-expert-formwork-engineers-and-designers-for-your-project/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/11/architects-and-engineers-are-working-together-to-e-min-scaled.jpg",
+      "datePublished": "2024-11-19T08:43:15+00:00",
+      "dateModified": "2025-07-06T04:03:30+00:00",
+      "description": "Formwork design for soffits, walls and capping beams using Peri, Doka and Titan systems, with detailed layouts and estimating support for your project.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/find-expert-formwork-engineers-and-designers-for-your-project/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/find-expert-formwork-engineers-and-designers-for-your-project/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/find-expert-formwork-engineers-and-designers-for-your-project/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/11/architects-and-engineers-are-working-together-to-e-min-scaled.jpg",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/11/architects-and-engineers-are-working-together-to-e-min-scaled.jpg",
+      "width": 2560,
+      "height": 1707,
+      "caption": "formwork-design-service"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/find-expert-formwork-engineers-and-designers-for-your-project/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Find Expert Formwork Engineers and Designers for Your Project"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://formworkforconcrete.com/#/schema/person/546c53911cc7a6dde9299da59ba9ba36",
+      "name": "pJZadB73Wk",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/person/image/",
+       "url": "https://secure.gravatar.com/avatar/1b99a489a4504c071fd424d813864c639541f2654d5257f40854fcdfc429140f?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/1b99a489a4504c071fd424d813864c639541f2654d5257f40854fcdfc429140f?s=96&d=mm&r=g",
+       "caption": "pJZadB73Wk"
+      },
+      "sameAs": [
+       "https://formworkforconcrete.com"
+      ],
+      "url": "https://formworkforconcrete.com/author/pjzadb73wk/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/formwork-design-for-a-suspended-concrete-slab/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://formworkforconcrete.com/formwork-design-for-a-suspended-concrete-slab/#article",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/formwork-design-for-a-suspended-concrete-slab/"
+      },
+      "author": {
+       "name": "pJZadB73Wk",
+       "@id": "https://formworkforconcrete.com/#/schema/person/546c53911cc7a6dde9299da59ba9ba36"
+      },
+      "headline": "Formwork Design for a Suspended Concrete Slab",
+      "datePublished": "2024-11-04T09:39:31+00:00",
+      "dateModified": "2024-11-04T09:49:43+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://formworkforconcrete.com/formwork-design-for-a-suspended-concrete-slab/"
+      },
+      "wordCount": 535,
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/formwork-design-for-a-suspended-concrete-slab/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-supports-the-second-floor-of-a-monolithic-min-scaled.webp",
+      "keywords": [
+       "#BIM",
+       "#BuildingDesign",
+       "#Concrete",
+       "#ConcreteConstruction",
+       "#ConstructionDrawings",
+       "#ConstructionJoints",
+       "#ConstructionPlanning",
+       "#ConstructionSafety",
+       "#Formwork",
+       "#FormworkDesign",
+       "#ProjectManagement",
+       "#QualityControl",
+       "#ShopDrawings",
+       "#StructuralEngineering",
+       "Construction"
+      ],
+      "articleSection": [
+       "Blog-post"
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/formwork-design-for-a-suspended-concrete-slab/",
+      "url": "https://formworkforconcrete.com/formwork-design-for-a-suspended-concrete-slab/",
+      "name": "Formwork Design for a Suspended Concrete Slab",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/formwork-design-for-a-suspended-concrete-slab/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/formwork-design-for-a-suspended-concrete-slab/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-supports-the-second-floor-of-a-monolithic-min-scaled.webp",
+      "datePublished": "2024-11-04T09:39:31+00:00",
+      "dateModified": "2024-11-04T09:49:43+00:00",
+      "description": "Key components, load calculations and deflection control for suspended slab formwork: decking, props, beams and joists explained by our engineers.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/formwork-design-for-a-suspended-concrete-slab/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/formwork-design-for-a-suspended-concrete-slab/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/formwork-design-for-a-suspended-concrete-slab/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-supports-the-second-floor-of-a-monolithic-min-scaled.webp",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-supports-the-second-floor-of-a-monolithic-min-scaled.webp",
+      "width": 2560,
+      "height": 1707,
+      "caption": "Expert formwork design services for robust concrete construction"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/formwork-design-for-a-suspended-concrete-slab/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Formwork Design for a Suspended Concrete Slab"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://formworkforconcrete.com/#/schema/person/546c53911cc7a6dde9299da59ba9ba36",
+      "name": "pJZadB73Wk",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/person/image/",
+       "url": "https://secure.gravatar.com/avatar/1b99a489a4504c071fd424d813864c639541f2654d5257f40854fcdfc429140f?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/1b99a489a4504c071fd424d813864c639541f2654d5257f40854fcdfc429140f?s=96&d=mm&r=g",
+       "caption": "pJZadB73Wk"
+      },
+      "sameAs": [
+       "https://formworkforconcrete.com"
+      ],
+      "url": "https://formworkforconcrete.com/author/pjzadb73wk/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/formwork-shop-drawings-and-construction-joint-layout/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://formworkforconcrete.com/formwork-shop-drawings-and-construction-joint-layout/#article",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/formwork-shop-drawings-and-construction-joint-layout/"
+      },
+      "author": {
+       "name": "pJZadB73Wk",
+       "@id": "https://formworkforconcrete.com/#/schema/person/546c53911cc7a6dde9299da59ba9ba36"
+      },
+      "headline": "Formwork Shop Drawings and Construction Joint Layout",
+      "datePublished": "2024-10-16T10:26:01+00:00",
+      "dateModified": "2024-10-16T10:52:16+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://formworkforconcrete.com/formwork-shop-drawings-and-construction-joint-layout/"
+      },
+      "wordCount": 912,
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/formwork-shop-drawings-and-construction-joint-layout/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-concrete-design-pourmap-2.jpg",
+      "keywords": [
+       "#BIM",
+       "#BuildingDesign",
+       "#Concrete",
+       "#ConcreteConstruction",
+       "#ConstructionDrawings",
+       "#ConstructionJoints",
+       "#ConstructionPlanning",
+       "#ConstructionSafety",
+       "#Formwork",
+       "#FormworkDesign",
+       "#ProjectManagement",
+       "#QualityControl",
+       "#ShopDrawings",
+       "#StructuralEngineering",
+       "Construction"
+      ],
+      "articleSection": [
+       "Blog-post"
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/formwork-shop-drawings-and-construction-joint-layout/",
+      "url": "https://formworkforconcrete.com/formwork-shop-drawings-and-construction-joint-layout/",
+      "name": "Formwork Shop Drawings & Construction Joint Layout Guide",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/formwork-shop-drawings-and-construction-joint-layout/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/formwork-shop-drawings-and-construction-joint-layout/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-concrete-design-pourmap-2.jpg",
+      "datePublished": "2024-10-16T10:26:01+00:00",
+      "dateModified": "2024-10-16T10:52:16+00:00",
+      "description": "How formwork shop drawings and construction joint layouts work together to protect structural integrity, control pour phasing and cut costly rework.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/formwork-shop-drawings-and-construction-joint-layout/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/formwork-shop-drawings-and-construction-joint-layout/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/formwork-shop-drawings-and-construction-joint-layout/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-concrete-design-pourmap-2.jpg",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-concrete-design-pourmap-2.jpg",
+      "width": 842,
+      "height": 595,
+      "caption": "Concrete pour map and sequencing plan for formwork design"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/formwork-shop-drawings-and-construction-joint-layout/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Formwork Shop Drawings and Construction Joint Layout"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://formworkforconcrete.com/#/schema/person/546c53911cc7a6dde9299da59ba9ba36",
+      "name": "pJZadB73Wk",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/person/image/",
+       "url": "https://secure.gravatar.com/avatar/1b99a489a4504c071fd424d813864c639541f2654d5257f40854fcdfc429140f?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/1b99a489a4504c071fd424d813864c639541f2654d5257f40854fcdfc429140f?s=96&d=mm&r=g",
+       "caption": "pJZadB73Wk"
+      },
+      "sameAs": [
+       "https://formworkforconcrete.com"
+      ],
+      "url": "https://formworkforconcrete.com/author/pjzadb73wk/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/how-to-design-formwork-and-scaffolding-components/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://formworkforconcrete.com/how-to-design-formwork-and-scaffolding-components/#article",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/how-to-design-formwork-and-scaffolding-components/"
+      },
+      "author": {
+       "name": "pJZadB73Wk",
+       "@id": "https://formworkforconcrete.com/#/schema/person/546c53911cc7a6dde9299da59ba9ba36"
+      },
+      "headline": "How to Design Formwork and Scaffolding Components",
+      "datePublished": "2025-03-03T04:28:27+00:00",
+      "dateModified": "2025-03-03T04:40:28+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://formworkforconcrete.com/how-to-design-formwork-and-scaffolding-components/"
+      },
+      "wordCount": 481,
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/how-to-design-formwork-and-scaffolding-components/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2025/03/Design-Formwork-and-Scaffolding-Components.jpeg",
+      "keywords": [
+       "#BIM",
+       "#BuildingDesign",
+       "#Concrete",
+       "#ConcreteConstruction",
+       "#ConstructionDrawings",
+       "#ConstructionJoints",
+       "#ConstructionPlanning",
+       "#ConstructionSafety",
+       "#Formwork",
+       "#FormworkDesign",
+       "#ProjectManagement",
+       "#QualityControl",
+       "#ShopDrawings",
+       "#StructuralEngineering",
+       "Construction"
+      ],
+      "articleSection": [
+       "Blog-post"
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/how-to-design-formwork-and-scaffolding-components/",
+      "url": "https://formworkforconcrete.com/how-to-design-formwork-and-scaffolding-components/",
+      "name": "How to Design Formwork and Scaffolding Components",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/how-to-design-formwork-and-scaffolding-components/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/how-to-design-formwork-and-scaffolding-components/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2025/03/Design-Formwork-and-Scaffolding-Components.jpeg",
+      "datePublished": "2025-03-03T04:28:27+00:00",
+      "dateModified": "2025-03-03T04:40:28+00:00",
+      "description": "A five-step method for configuring Doka, PERI and Titan formwork and scaffolding: system selection, panel layout, bracing and pre-pour inspection.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/how-to-design-formwork-and-scaffolding-components/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/how-to-design-formwork-and-scaffolding-components/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/how-to-design-formwork-and-scaffolding-components/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2025/03/Design-Formwork-and-Scaffolding-Components.jpeg",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2025/03/Design-Formwork-and-Scaffolding-Components.jpeg",
+      "width": 1024,
+      "height": 683,
+      "caption": "Design Formwork and Scaffolding Components"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/how-to-design-formwork-and-scaffolding-components/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How to Design Formwork and Scaffolding Components"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://formworkforconcrete.com/#/schema/person/546c53911cc7a6dde9299da59ba9ba36",
+      "name": "pJZadB73Wk",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/person/image/",
+       "url": "https://secure.gravatar.com/avatar/1b99a489a4504c071fd424d813864c639541f2654d5257f40854fcdfc429140f?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/1b99a489a4504c071fd424d813864c639541f2654d5257f40854fcdfc429140f?s=96&d=mm&r=g",
+       "caption": "pJZadB73Wk"
+      },
+      "sameAs": [
+       "https://formworkforconcrete.com"
+      ],
+      "url": "https://formworkforconcrete.com/author/pjzadb73wk/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/news/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/news/",
+      "url": "https://formworkforconcrete.com/news/",
+      "name": "News - Formwork for concrete",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "datePublished": "2023-07-31T12:49:56+00:00",
+      "dateModified": "2024-10-24T08:37:34+00:00",
+      "description": "Stay updated with the latest insights and news from the world of concrete formwork design.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/news/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/news/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/news/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "News"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/projects/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/projects/",
+      "url": "https://formworkforconcrete.com/projects/",
+      "name": "Concrete Formwork Design Projects - Formwork for concrete",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/projects/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/projects/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/high-rise-building-under-construction-min-scaled.webp",
+      "datePublished": "2023-07-31T12:47:42+00:00",
+      "dateModified": "2025-07-05T18:19:33+00:00",
+      "description": "Comprehensive Concrete Formwork Design Services: Precision Engineering for Foundations, Walls, Slabs, and Complex Structures",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/projects/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/projects/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/projects/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/high-rise-building-under-construction-min-scaled.webp",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/high-rise-building-under-construction-min-scaled.webp",
+      "width": 2560,
+      "height": 1707,
+      "caption": "Concrete formwork design service"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/projects/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/projects/ajax-foundation/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/projects/ajax-foundation/",
+      "url": "https://formworkforconcrete.com/projects/ajax-foundation/",
+      "name": "Foundation Formwork Planning & Detailing Services",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/projects/ajax-foundation/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/projects/ajax-foundation/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/ajax-foundation-concrete-formwork-cover_anloro-jpg.webp",
+      "datePublished": "2023-08-02T11:48:00+00:00",
+      "dateModified": "2025-07-06T04:00:25+00:00",
+      "description": "Foundation formwork planning and detailing for a phased furnace foundation replacement, including system formwork assembly and formwork take-off.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/projects/ajax-foundation/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/projects/ajax-foundation/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/projects/ajax-foundation/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/ajax-foundation-concrete-formwork-cover_anloro-jpg.webp",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/ajax-foundation-concrete-formwork-cover_anloro-jpg.webp",
+      "width": 891,
+      "height": 675,
+      "caption": "Ajax Tocco furnace foundation formwork design"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/projects/ajax-foundation/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "https://formworkforconcrete.com/projects/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Ajax Tocco 85 Ton Furnace Foundation"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/projects/brb-mbr-structure/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/projects/brb-mbr-structure/",
+      "url": "https://formworkforconcrete.com/projects/brb-mbr-structure/",
+      "name": "BRB & MBR Structure - Formwork for concrete",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/projects/brb-mbr-structure/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/projects/brb-mbr-structure/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/mbr-concrete-formwork_dylwgi-jpg.webp",
+      "datePublished": "2024-10-08T10:26:51+00:00",
+      "dateModified": "2024-10-15T04:40:05+00:00",
+      "description": "Comprehensive formwork design for walls, slabs, beams, and columns, ensuring precision, safety, and durability during concrete pouring",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/projects/brb-mbr-structure/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/projects/brb-mbr-structure/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/projects/brb-mbr-structure/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/mbr-concrete-formwork_dylwgi-jpg.webp",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/mbr-concrete-formwork_dylwgi-jpg.webp",
+      "width": 1082,
+      "height": 771,
+      "caption": "BRB and MBR structure formwork design"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/projects/brb-mbr-structure/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "https://formworkforconcrete.com/projects/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "BRB &#038; MBR Structure"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/projects/formwork-belle-project/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/projects/formwork-belle-project/",
+      "url": "https://formworkforconcrete.com/projects/formwork-belle-project/",
+      "name": "Belle Villa Formwork Design on a Sloped Site",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-belle-project/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-belle-project/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/ptf_formwork_3d-1-jpg.webp",
+      "datePublished": "2024-10-14T08:29:11+00:00",
+      "dateModified": "2024-10-14T08:37:26+00:00",
+      "description": "Formwork design for a villa on a sloped site, using wood lumber and panel materials to suit the complex geometry of the slab concrete structure.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-belle-project/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/projects/formwork-belle-project/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/projects/formwork-belle-project/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/ptf_formwork_3d-1-jpg.webp",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/ptf_formwork_3d-1-jpg.webp",
+      "width": 2447,
+      "height": 2093,
+      "caption": "3D formwork model of the Belle villa slab structure"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/projects/formwork-belle-project/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "https://formworkforconcrete.com/projects/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Formwork Belle Projects"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/projects/formwork-core-walls/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/projects/formwork-core-walls/",
+      "url": "https://formworkforconcrete.com/projects/formwork-core-walls/",
+      "name": "Elevator Core Wall Formwork Design with Soloform",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-core-walls/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-core-walls/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/soloform-concrete-formwork_shp7t0-jpg.webp",
+      "datePublished": "2024-10-08T11:28:21+00:00",
+      "dateModified": "2024-10-08T11:50:08+00:00",
+      "description": "Core wall formwork design developed from architectural and structural drawings using Soloform, detailed so no additional on-site data is needed.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-core-walls/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/projects/formwork-core-walls/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/projects/formwork-core-walls/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/soloform-concrete-formwork_shp7t0-jpg.webp",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/soloform-concrete-formwork_shp7t0-jpg.webp",
+      "width": 916,
+      "height": 717,
+      "caption": "Soloform elevator core wall formwork design"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/projects/formwork-core-walls/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "https://formworkforconcrete.com/projects/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Elevator Walls"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/projects/formwork-new-house-doka/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/projects/formwork-new-house-doka/",
+      "url": "https://formworkforconcrete.com/projects/formwork-new-house-doka/",
+      "name": "Doka Slab Formwork Design for a Multi-Story Villa",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-new-house-doka/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-new-house-doka/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-new-building-doka-3d-jpg.webp",
+      "datePublished": "2024-10-14T03:23:54+00:00",
+      "dateModified": "2024-10-14T04:40:00+00:00",
+      "description": "Formwork design for a new multi-story villa with concrete pouring across multiple floors, using the Doka formwork system as the primary slab solution.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-new-house-doka/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/projects/formwork-new-house-doka/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/projects/formwork-new-house-doka/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-new-building-doka-3d-jpg.webp",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-new-building-doka-3d-jpg.webp",
+      "width": 842,
+      "height": 595,
+      "caption": "3D Doka formwork model for the multi-story villa slab"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/projects/formwork-new-house-doka/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "https://formworkforconcrete.com/projects/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "New House Building"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/projects/formwork-peitro-carnaghi-foudation/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/projects/formwork-peitro-carnaghi-foudation/",
+      "url": "https://formworkforconcrete.com/projects/formwork-peitro-carnaghi-foudation/",
+      "name": "Pietro Carnaghi Machine Foundation Formwork Design",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-peitro-carnaghi-foudation/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-peitro-carnaghi-foudation/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/nfpc-concrete-formwork_kdk8fo-jpg.webp",
+      "datePublished": "2024-10-08T10:57:51+00:00",
+      "dateModified": "2024-10-08T11:50:40+00:00",
+      "description": "Formwork design for a machine foundation built over a partially demolished structure, including Stelcore pile removal and alignment coordination.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-peitro-carnaghi-foudation/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/projects/formwork-peitro-carnaghi-foudation/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/projects/formwork-peitro-carnaghi-foudation/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/nfpc-concrete-formwork_kdk8fo-jpg.webp",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/nfpc-concrete-formwork_kdk8fo-jpg.webp",
+      "width": 833,
+      "height": 722,
+      "caption": "Pietro Carnaghi machine foundation formwork design"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/projects/formwork-peitro-carnaghi-foudation/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "https://formworkforconcrete.com/projects/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pietro Carnaghi Foundation"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/projects/formwork-preliminary-treatment-facility/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/projects/formwork-preliminary-treatment-facility/",
+      "url": "https://formworkforconcrete.com/projects/formwork-preliminary-treatment-facility/",
+      "name": "Preliminary Treatment Facility Formwork Design",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-preliminary-treatment-facility/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-preliminary-treatment-facility/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/ptf-concrete-formwork_hmlbfb-jpg.webp",
+      "datePublished": "2024-10-08T11:09:24+00:00",
+      "dateModified": "2024-10-08T11:49:35+00:00",
+      "description": "Formwork design and panel scheduling for walls, slabs, beams and columns on a two-story preliminary treatment facility, engineered for pour pressures.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-preliminary-treatment-facility/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/projects/formwork-preliminary-treatment-facility/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/projects/formwork-preliminary-treatment-facility/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/ptf-concrete-formwork_hmlbfb-jpg.webp",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/ptf-concrete-formwork_hmlbfb-jpg.webp",
+      "width": 1014,
+      "height": 774,
+      "caption": "Preliminary treatment facility formwork design"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/projects/formwork-preliminary-treatment-facility/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "https://formworkforconcrete.com/projects/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Preliminary Treatment Facility"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/projects/formwork-spring-creek-auxiliary-foundation/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/projects/formwork-spring-creek-auxiliary-foundation/",
+      "url": "https://formworkforconcrete.com/projects/formwork-spring-creek-auxiliary-foundation/",
+      "name": "Spring Creek Effluent Chamber Formwork Drawings",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-spring-creek-auxiliary-foundation/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-spring-creek-auxiliary-foundation/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/wpcp-concrete-formwork_kbjd7q-jpg.webp",
+      "datePublished": "2024-10-08T11:35:16+00:00",
+      "dateModified": "2024-10-08T11:40:55+00:00",
+      "description": "Formwork design drawings for reconstruction of an effluent chamber structure, with specifications and dimensions for efficient on-site assembly.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/projects/formwork-spring-creek-auxiliary-foundation/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/projects/formwork-spring-creek-auxiliary-foundation/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/projects/formwork-spring-creek-auxiliary-foundation/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/wpcp-concrete-formwork_kbjd7q-jpg.webp",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/wpcp-concrete-formwork_kbjd7q-jpg.webp",
+      "width": 940,
+      "height": 709,
+      "caption": "Spring Creek effluent chamber formwork design"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/projects/formwork-spring-creek-auxiliary-foundation/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "https://formworkforconcrete.com/projects/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Spring Creek Auxiliary Foundation"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/projects/kyle-dam-foundation/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/projects/kyle-dam-foundation/",
+      "url": "https://formworkforconcrete.com/projects/kyle-dam-foundation/",
+      "name": "Kyle Dam Formwork Design & Gang Form Detailing",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/projects/kyle-dam-foundation/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/projects/kyle-dam-foundation/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/kyle-damp-concrete-formwork-min_hwrqaj-jpg.webp",
+      "datePublished": "2024-10-08T05:12:51+00:00",
+      "dateModified": "2024-10-08T11:48:52+00:00",
+      "description": "Formwork design for two new retaining walls on an existing longitudinal dam slab, using a custom gang form system with cross waterstop detailing.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/projects/kyle-dam-foundation/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/projects/kyle-dam-foundation/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/projects/kyle-dam-foundation/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/kyle-damp-concrete-formwork-min_hwrqaj-jpg.webp",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/kyle-damp-concrete-formwork-min_hwrqaj-jpg.webp",
+      "width": 975,
+      "height": 708,
+      "caption": "Kyle Dam retaining wall gang form design"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/projects/kyle-dam-foundation/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "https://formworkforconcrete.com/projects/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Kyle Dam"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/projects/outlet-spillway-dam/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/projects/outlet-spillway-dam/",
+      "url": "https://formworkforconcrete.com/projects/outlet-spillway-dam/",
+      "name": "Outlet Spillway Dam Formwork Design & Detailing",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/projects/outlet-spillway-dam/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/projects/outlet-spillway-dam/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/spillway-overview.png",
+      "datePublished": "2024-10-14T08:52:02+00:00",
+      "dateModified": "2026-08-04T13:30:29+00:00",
+      "description": "Formwork design for a complex spillway slab extension with slopes in both directions, using Symons formwork with reinforcement detailing per section.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/projects/outlet-spillway-dam/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/projects/outlet-spillway-dam/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/projects/outlet-spillway-dam/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/spillway-overview.png",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/spillway-overview.png",
+      "width": 758,
+      "height": 567,
+      "caption": "Overview of the outlet spillway dam structure"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/projects/outlet-spillway-dam/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "https://formworkforconcrete.com/projects/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Outlet Spillway Dam"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ],
+  "https://formworkforconcrete.com/projects/pretreatment-structure-foudation-and-intermediate/": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://formworkforconcrete.com/projects/pretreatment-structure-foudation-and-intermediate/",
+      "url": "https://formworkforconcrete.com/projects/pretreatment-structure-foudation-and-intermediate/",
+      "name": "Pretreatment Structure Formwork Detailing & Design",
+      "isPartOf": {
+       "@id": "https://formworkforconcrete.com/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://formworkforconcrete.com/projects/pretreatment-structure-foudation-and-intermediate/#primaryimage"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/projects/pretreatment-structure-foudation-and-intermediate/#primaryimage"
+      },
+      "thumbnailUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-pretreatment-structure-3d-1-jpg.webp",
+      "datePublished": "2024-10-14T09:07:14+00:00",
+      "dateModified": "2026-08-04T13:30:32+00:00",
+      "description": "Formwork detailing and design for a water treatment project, covering the foundation, wall and intermediate slab structures.",
+      "breadcrumb": {
+       "@id": "https://formworkforconcrete.com/projects/pretreatment-structure-foudation-and-intermediate/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://formworkforconcrete.com/projects/pretreatment-structure-foudation-and-intermediate/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://formworkforconcrete.com/projects/pretreatment-structure-foudation-and-intermediate/#primaryimage",
+      "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-pretreatment-structure-3d-1-jpg.webp",
+      "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-pretreatment-structure-3d-1-jpg.webp",
+      "width": 842,
+      "height": 595,
+      "caption": "3D formwork model of the pretreatment structure foundation and intermediate slab"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://formworkforconcrete.com/projects/pretreatment-structure-foudation-and-intermediate/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://formworkforconcrete.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "https://formworkforconcrete.com/projects/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pretreatment Structure Foundation and Intermediate Slab"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://formworkforconcrete.com/#website",
+      "url": "https://formworkforconcrete.com/",
+      "name": "Formwork for concrete",
+      "description": "Design Formwork For Concrete",
+      "publisher": {
+       "@id": "https://formworkforconcrete.com/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://formworkforconcrete.com/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://formworkforconcrete.com/#organization",
+      "name": "Formwork for concrete",
+      "url": "https://formworkforconcrete.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/",
+       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "contentUrl": "https://formworkforconcrete.com/wp-content/uploads/2024/04/FormworkForConcrete-e1726569806563.png",
+       "width": 475,
+       "height": 52,
+       "caption": "Formwork for concrete"
+      },
+      "image": {
+       "@id": "https://formworkforconcrete.com/#/schema/logo/image/"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formwork for Concrete",
+    "url": "https://formworkforconcrete.com/",
+    "description": "Expert formwork design services for concrete structures including shop drawings, 3D BIM models, BOQ, and concrete pour sequencing plans.",
+    "email": "contact@formworkforconcrete.com",
+    "areaServed": "Worldwide",
+    "serviceType": "Formwork Design",
+    "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Formwork Design Services",
+     "itemListElement": [
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Production Formwork Layout Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Scaffolding Shop Drawings"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "3D Formwork BIM Model"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Bills of Quantities (BOQ) for Formwork"
+       }
+      },
+      {
+       "@type": "Offer",
+       "itemOffered": {
+        "@type": "Service",
+        "name": "Concrete Pour Maps and Sequencing Plans"
+       }
+      }
+     ]
+    },
+    "sameAs": [
+     "https://formworkforconcrete.com/"
+    ]
+   }
+  ]
+ }
+}

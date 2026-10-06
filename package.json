@@ -1,0 +1,52 @@
+{
+  "name": "formworkforconcrete-com",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "node scripts/gen-media.mjs",
+    "build": "next build",
+    "lint": "eslint",
+    "media:upload": "node scripts/upload-media.mjs",
+    "media:gen": "node scripts/gen-media.mjs",
+    "media:warm": "node scripts/warm-images.mjs",
+    "seo:check": "node scripts/seo-check.ts",
+    "links:check": "node scripts/link-check.mjs",
+    "text:check": "node scripts/text-diff.mjs",
+    "media:scan": "node scripts/media-scan.mjs",
+    "shots": "node scripts/screenshots.mjs",
+    "form:build": "node services/contact/build.mjs",
+    "form:typecheck": "tsc -p services/contact",
+    "form:test": "node --test \"services/contact/src/*.test.ts\""
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^1.50.0",
+    "next": "16.3.8",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-s3": "^3.1146.0",
+    "@aws-sdk/client-secrets-manager": "^3.1146.0",
+    "@aws-sdk/client-sesv2": "^3.1146.0",
+    "@aws-sdk/s3-presigned-post": "^3.1146.0",
+    "@aws-sdk/s3-request-presigner": "^3.1146.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/aws-lambda": "^8.10.164",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "cheerio": "^1.2.0",
+    "cloudinary": "^2.11.0",
+    "esbuild": "^0.28.2",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.8",
+    "playwright-core": "^1.60.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@11.13.0"
+}

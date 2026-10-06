@@ -1,0 +1,5 @@
+# Rename this file to backend.tf only after the protected S3 bucket exists,
+# then run: terraform init -migrate-state -backend-config=backend.hcl
+terraform {
+  backend "s3" {}
+}

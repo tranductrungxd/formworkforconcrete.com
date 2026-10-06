@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens of formworkforconcrete.com, taken from the Elementor kit of the WordPress site (kit 3479):
+ * brand orange #FC5220, near-black #191817, text #4A4A4A, hairlines #E6E9EB, Manrope everywhere,
+ * 1280px container. Headings are bold and uppercase. Everything else is Tailwind utilities.
+ */
+@theme {
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --color-accent: #fc5220;
+  --color-ink: #191817;
+  --color-charcoal: #2b2b2b;
+  --color-paper: #f7f7f7;
+  --color-line: #e6e9eb;
+  --color-text: #4a4a4a;
+  --color-muted: #676973;
+
+  --container-site: 1280px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background: #fff;
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  /* Smooth scrolling off while the page changes (Next 16 reads data-scroll-behavior on <html>). */
+  :target {
+    scroll-margin-top: 24px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--color-text);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0;
+  }
+  h1 { font-size: 48px; line-height: 1.1; }
+  h2 { font-size: 36px; line-height: 1.2; }
+  h3 { font-size: 30px; line-height: 1.1; }
+  h4 { font-size: 24px; line-height: 1.2; }
+  h5 { font-size: 20px; line-height: 1.2; }
+  h6 { font-size: 16px; line-height: 1.2; }
+
+  @media (max-width: 1024px) {
+    h1 { font-size: 50px; line-height: 1; }
+    h2 { font-size: 35px; line-height: 1.1; }
+    h3 { font-size: 28px; }
+    h5 { font-size: 19px; }
+    h6 { font-size: 17px; }
+  }
+  @media (max-width: 767px) {
+    h1 { font-size: 31px; }
+    h2 { font-size: 25px; }
+    h3 { font-size: 22px; }
+    h4 { font-size: 19px; }
+    h5 { font-size: 17px; }
+    h6 { font-size: 16px; }
+  }
+
+  a {
+    color: inherit;
+  }
+  button {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Article and project copy rendered from Markdown (components/ui/Markdown.tsx). */
+@layer components {
+  .prose-ffc {
+    font-size: 16px;
+    line-height: 1.45;
+  }
+  .prose-ffc > * + * {
+    margin-top: 1.1em;
+  }
+  .prose-ffc strong {
+    font-weight: 700;
+  }
+  .prose-ffc a {
+    color: #000;
+    text-decoration: none;
+  }
+  .prose-ffc a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-accent);
+    text-underline-offset: 3px;
+  }
+  .prose-ffc ul,
+  .prose-ffc ol {
+    padding-left: 1.7em;
+    margin: 0;
+  }
+  .prose-ffc ul {
+    list-style: disc;
+  }
+  .prose-ffc ol {
+    list-style: decimal;
+  }
+  .prose-ffc li + li {
+    margin-top: 0.35em;
+  }
+  .prose-ffc h2,
+  .prose-ffc h3,
+  .prose-ffc h4,
+  .prose-ffc h5,
+  .prose-ffc h6 {
+    margin-top: 1.8em;
+  }
+  .prose-ffc h3 { font-size: 28px; }
+  .prose-ffc h5 { font-size: 20px; }
+  .prose-ffc h6 { font-size: 16px; }
+  .prose-ffc blockquote {
+    border-top: 3px solid var(--color-accent);
+    padding-top: 1.1em;
+    margin-top: 2em;
+  }
+  .prose-ffc blockquote > * + * {
+    margin-top: 1.1em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

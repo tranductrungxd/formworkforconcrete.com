@@ -1,0 +1,21 @@
+# Public/non-secret overrides only. Never place the Turnstile secret or the signing key in a
+# tfvars file because Terraform records variable values in plans and state.
+aws_profile = "rfm-aws-manage"
+
+# Public Turnstile site key of the formworkforconcrete.com widget (create it in Cloudflare first). The secret key
+# goes into Secrets Manager, never here.
+# turnstile_site_key = "0x4AAAAAAA..."
+
+# Add the Amplify preview origin while testing, e.g. "https://main.<app-id>.amplifyapp.com".
+contact_allowed_origins = [
+  "https://formworkforconcrete.com",
+  # "https://main.<app-id>.amplifyapp.com",   # the Amplify preview address, while testing
+]
+
+# Set after creating the Amplify app in the console.
+amplify_app_id = null
+# Recipient of the enquiries: the owner must confirm it.
+# contact_to_email = "contact@formworkforconcrete.com"
+
+# Enable only when DNS is ready (also adds the www -> apex redirect).
+custom_domain_name = null
