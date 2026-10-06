@@ -2,8 +2,8 @@
 /**
  * SEO regression check: fetches every URL of the baseline (seo-baseline/formworkforconcrete.com.pages.csv) from a
  * running site and compares title, description, canonical, robots, <html lang>, og:*, H1 and JSON-LD @types. Also
- * verifies the redirects, robots.txt, sitemap.xml, the 404 status, and that no internal link points at a redirect
- * source or lacks the trailing slash.
+ * verifies the redirects (the CSV rules and the slash-less variant of every page), robots.txt, sitemap.xml, the 404
+ * status, and that no internal link points at a redirect source or lacks the trailing slash.
  *
  *   node scripts/seo-check.ts http://localhost:4173            (serve out/ first, e.g. `python3 -m http.server 4173 -d out`)
  *   node scripts/seo-check.ts https://main.<app-id>.amplifyapp.com --redirects
@@ -147,11 +147,25 @@ if (nf.status !== 404) fail("/does-not-exist/", "HTTP status", 404, nf.status);
 if (checkRedirects) {
   console.log("\nredirects");
   for (const r of redirects) {
-    for (const from of new Set([r.from, r.from.endsWith("/") ? r.from.slice(0, -1) : r.from + "/"])) {
+    // Files such as /sitemap_index.xml have no "/" variant (infrastructure/redirects.tf).
+    const variants = r.from.endsWith(".xml") ? [r.from] : [r.from, r.from.endsWith("/") ? r.from.slice(0, -1) : r.from + "/"];
+    for (const from of new Set(variants)) {
       const res = await get(base + from, "manual");
       const loc = (res.headers.get("location") ?? "").replace(base, "").replace(PROD, "");
       if (res.status !== 301 || loc !== r.to) fail(from, `301 -> ${r.to}`, r.to, `${res.status} ${loc}`);
     }
+  }
+}
+
+if (checkRedirects) {
+  // The old site answered a page URL without the trailing slash with a 301 to the slash version; so must the new one.
+  console.log("\nkept pages without the trailing slash");
+  for (const b of baseline) {
+    if (dropped.has(b.url) || b.url === PROD + "/") continue;
+    const slashless = b.url.replace(PROD, "").replace(/\/$/, "");
+    const res = await get(base + slashless, "manual");
+    const loc = (res.headers.get("location") ?? "").replace(base, "").replace(PROD, "");
+    if (res.status !== 301 || loc !== slashless + "/") fail(slashless, `301 -> ${slashless}/`, slashless + "/", `${res.status} ${loc}`);
   }
 }
 

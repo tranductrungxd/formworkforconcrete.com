@@ -23,9 +23,9 @@ variable "project" {
 }
 
 variable "amplify_app_id" {
-  description = "ID of the Amplify app created in the console (connected to GitHub). Leave null to skip the Amplify resources. Not created yet: set it once the app exists."
+  description = "ID of the Amplify app created in the console (connected to GitHub). Leave null to skip the Amplify resources."
   type        = string
-  default     = null
+  default     = "d26eoc1yza6uci"
   nullable    = true
 }
 
@@ -44,7 +44,7 @@ variable "amplify_repository" {
 variable "amplify_service_role_arn" {
   description = "Service role Amplify attached to the app when it was created in the console, if any (changing it forces a new app). Not needed by a static site; set it from the app's settings before adopting the app so the import does not replace it."
   type        = string
-  default     = null
+  default     = "arn:aws:iam::379995599931:role/service-role/AmplifySSRLoggingRole-cf437283-855c-45ba-92b5-b525143d8584"
   nullable    = true
 }
 
@@ -61,15 +61,15 @@ variable "cloudinary_cloud_name" {
 }
 
 variable "turnstile_site_key" {
-  description = "Public Cloudflare Turnstile site key of the formworkforconcrete.com widget (public by design). Create the widget in Cloudflare first; empty keeps the form disabled (it shows the email address instead)."
+  description = "Public Cloudflare Turnstile site key of the formworkforconcrete.com widget (public by design). Empty keeps the form disabled (it shows the email address instead)."
   type        = string
-  default     = ""
+  default     = "0x4AAAAAAFPT7o8CrqUSUwyG"
 }
 
 variable "contact_allowed_origins" {
   description = "Exact browser origins allowed to use the contact service and to upload to S3. Includes the Amplify preview address for testing."
   type        = set(string)
-  default     = ["https://formworkforconcrete.com"]
+  default     = ["https://formworkforconcrete.com", "https://main.d26eoc1yza6uci.amplifyapp.com"]
 }
 
 variable "contact_secret_name" {

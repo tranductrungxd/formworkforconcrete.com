@@ -27,7 +27,7 @@ pnpm form:build                # bundle the contact service -> services/contact/
 | `components/sections`, `components/pages` | Page sections and the page templates. |
 | `content/` | All copy. `home.ts`, `pages.ts`, `site.ts`, `form.ts` are typed TS; `projects/*.md` and `posts/*.md` are Markdown with front matter; `seo.ts` is the baseline title/description/canonical/og/JSON-LD facts of every URL (generated, see below); `media-manifest.csv` maps every image to Cloudinary. |
 | `lib/` | `seo.ts` (metadata), `jsonld.ts` (JSON-LD graphs), `content.ts` (reads the Markdown), `media.ts`, `image-loader.ts` (Cloudinary), `fonts.ts` (Manrope). |
-| `public/wp-content/uploads/` | The 21 files the og:image, JSON-LD logo and favicon URLs still point to, so those URLs keep working after the domain moves. |
+| `public/wp-content/uploads/` | The 34 legacy files that URLs still point to: the og:image / JSON-LD logo / favicon files, plus every image URL that had Search Console impressions, so they keep working after the domain moves. |
 | `services/contact/` | The contact form backend (Lambda, TypeScript, 20 tests). |
 | `infrastructure/` | Terraform for the AWS side (uploads bucket, secret, contact Lambda, SES, Amplify app settings, redirects). See its README. |
 | `amplify.yml`, `customHttp.yml` | Amplify build spec and response headers (caching, security). Same as oceanbim.com. |
@@ -73,11 +73,20 @@ differences. Approved differences (plan section 6): `/category/blog-post/` and `
 301 to `/news/`; the sitemap moved to `/sitemap.xml`; the contact form is new. Two small JSON-LD choices: the WebSite has no
 `SearchAction` (the new site has no search), and the post author is "Formwork for concrete" instead of the WordPress username.
 
+## Search Console
+
+The export of 2026-10-06 (Pages, Queries, Coverage; 857 clicks and 123,577 impressions over 41 URLs, 70% of the clicks on
+`/formwork-design-for-a-suspended-concrete-slab/`) is kept untracked in `seo-baseline/search-console-*.csv` (the repo is public).
+`pnpm gsc:check` says what the new site does with each URL of the Pages export (serve, 301 or 404); with a base URL it fetches
+them, and with `--redirects` on a deployed host it checks the 301s too. It covers the three redirects added because of the
+export (an old post slug and two WordPress attachment pages) and the slash-less 301 of every kept page, which the old site also did.
+Compare Search Console against this export after the cutover.
+
 ## Hosting (AWS Amplify)
 
 Static export, Amplify platform `WEB`, as for oceanbim.com. `infrastructure/` creates the bucket, secret, Lambda and, once the
-console-created app is adopted, the app settings and the 24 redirect rules that replace `.htaccess`
-(`infrastructure/redirects.tf`, generated from `seo-baseline/redirects.formworkforconcrete.com.csv`). Response headers are in
+console-created app is adopted, the app settings and the 44 redirect rules that replace `.htaccess`
+(`infrastructure/redirects.tf`, generated from `seo-baseline/redirects.formworkforconcrete.com.csv` and the baseline page list). Response headers are in
 `customHttp.yml`. **Nothing has been deployed and nothing has been created in AWS yet.**
 
 ## Analytics and chat
@@ -104,7 +113,7 @@ and 390 (`pnpm shots https://formworkforconcrete.com extract/screenshots/old`), 
   project cards on the home page).
 - **Contrast:** the small white text on the orange expertise panel of the home page is 3.3:1 (brand colours of the old site),
   below WCAG AA for body text.
-- **Old uploads:** only the 21 og/logo/favicon files ship. Other old `/wp-content/uploads/…` URLs (hotlinks, Google image
-  results) stop working when the domain moves to Amplify; shipping the whole 114 MB folder is possible if wanted.
+- **Old uploads:** only the 34 files above ship. Other old `/wp-content/uploads/…` URLs (hotlinks) stop working when the domain moves
+  to Amplify; shipping the whole 114 MB folder is possible if wanted.
 - **Footer:** the "CDE (oceanBIM App)" link of the old footer was removed on request.
-- **Search Console export** (Pages, last 12 months) is still needed before the cutover, as in the plan.
+- **Search Console** (export of 2026-10-06, see below) is covered: no URL with clicks or impressions would 404.

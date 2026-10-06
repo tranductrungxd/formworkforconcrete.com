@@ -2,8 +2,11 @@
 
 Terraform for the AWS side of formworkforconcrete.com. It follows the layout of the `oceanbim.com` and `oceanbimcloud`
 stacks: same pinned Terraform and provider versions, same account (`379995599931`), region (`ap-southeast-1`) and CLI
-profile (`rfm-aws-manage`), the same "secret values never enter Terraform" rule. **Nothing in here has been applied yet**:
-`terraform init -backend=false && terraform validate` pass, that is all that was run. Do `terraform plan` before the first apply.
+profile (`rfm-aws-manage`), the same "secret values never enter Terraform" rule. **Applied on 2026-10-06 with the `oceanbim-admin` profile:** the whole stack
+(bucket, Lambda and function URL, role, SES identity, secret) and the adoption of the Amplify app `d26eoc1yza6uci` (platform `WEB`,
+44 redirect rules, build variables). State is local in `infrastructure/terraform.tfstate` (gitignored). The first preview build
+(`https://main.d26eoc1yza6uci.amplifyapp.com`) passed `pnpm seo:check --redirects`; open points are the SES DNS records and the
+Turnstile hostnames (below). Do `terraform plan` before every further apply.
 
 | File | Creates |
 |---|---|
@@ -12,7 +15,7 @@ profile (`rfm-aws-manage`), the same "secret values never enter Terraform" rule.
 | `contact.tf` | Lambda `formworkforconcrete-com-contact` (code: `services/contact`), its least-privilege role, 90-day log group, public function URL. |
 | `ses.tf` | Amazon SES domain identity for `formworkforconcrete.com` with DKIM. The Lambda may send only from addresses on that domain. |
 | `amplify.tf`, `imports.tf` | The Amplify app settings, `main` branch and optional custom domain. **Skipped until `amplify_app_id` is set**, because the app is created in the console. |
-| `redirects.tf` | The 24 redirect rules that replace the old `.htaccess` (12 legacy URLs, each with and without the trailing slash), read from `seo-baseline/redirects.formworkforconcrete.com.csv`. Plus www to apex once the domain is set. |
+| `redirects.tf` | The 44 redirect rules that replace the old `.htaccess`: the 15 legacy URLs of `seo-baseline/redirects.formworkforconcrete.com.csv` (with and without the trailing slash, except `.xml` files) and a slash-less 301 for each of the 19 kept pages (as the old site did; `/projects` has Search Console impressions). Plus www to apex once the domain is set (45 in total; oceanbim.com's live app runs 49). |
 
 Why a static site plus a Lambda, and not the server-side Amplify hosting: Amplify's SSR hosting officially supports Next.js 12
 to 15 and this site is on 16; the pages need no server anyway. The Hostinger PHP form of the plan cannot run on Amplify, so
@@ -25,7 +28,7 @@ the form uses the same Lambda service as oceanbim.com.
 | 1 | **Recipient of the enquiries** (`contact_to_email`). Never `contacts@oceanbimcloud.com` (that domain has no MX record). | `contact@formworkforconcrete.com`, the address shown on the site. **Blocks launch until confirmed.** |
 | 2 | Sender address (`contact_from_email`), any address on the SES domain; it needs no mailbox. | `forms@formworkforconcrete.com` |
 | 3 | GitHub repository connected to Amplify (`amplify_repository`). | `https://github.com/tranductrungxd/formworkforconcrete.com` (a guess from oceanbim.com; the repo does not exist yet) |
-| 4 | A Cloudflare Turnstile widget for `formworkforconcrete.com` (and the Amplify preview host while testing). Its public site key goes into `turnstile_site_key`; the secret into Secrets Manager. | empty: the form shows the email address instead |
+| 4 | The Cloudflare Turnstile widget for `formworkforconcrete.com`: it must list the Amplify preview host as well while testing. Its public site key (`0x4AAAAAAFPT7o8CrqUSUwyG`) is the default of `turnstile_site_key`; the secret goes into Secrets Manager (step 3b). | site key set; the secret is still to be entered |
 
 ## Safety decisions
 
@@ -64,7 +67,9 @@ Re-run `pnpm form:build` before every apply: Terraform zips the bundle, and a ch
 ## 3. Mail through SES (DNS records, once)
 
 `terraform apply` creates the SES identity for `formworkforconcrete.com`. Publish the three CNAME records from the
-`ses_dkim_cname_records` output in the Google Cloud DNS zone (`terraform output ses_dkim_cname_records`). They do not touch
+`ses_dkim_cname_records` output in the DNS settings of the domain (`terraform output ses_dkim_cname_records`). **Check the Host field:**
+some panels append the domain themselves, so enter `<token>._domainkey` and not the full name (otherwise the record ends up as
+`<token>._domainkey.formworkforconcrete.com.formworkforconcrete.com` and SES stays `PENDING`; test with `dig +short CNAME <token>._domainkey.formworkforconcrete.com`). They do not touch
 the existing mail (MX → Hostinger), SPF or DMARC records. SES then shows the identity as **Verified** (a few minutes to a few
 hours; check with `aws sesv2 get-email-identity --email-identity formworkforconcrete.com`).
 
@@ -75,7 +80,8 @@ hours; check with `aws sesv2 get-email-identity --email-identity formworkforconc
 
 ## 3b. Fill in the secret (AWS console, Secrets Manager, `formworkforconcrete-com`)
 
-Plain-text JSON with these exact keys:
+The secret exists and `downloadSigningKey` is already set (generated, never shown). **Only `turnstileSecret` is still empty**: paste the
+widget's secret key there, or run `./scripts/set-turnstile-secret.sh`. Plain-text JSON with these exact keys:
 
 ```json
 {
@@ -85,7 +91,8 @@ Plain-text JSON with these exact keys:
 ```
 
 Easiest for the Turnstile secret: `./scripts/set-turnstile-secret.sh` (hidden input, keeps the other keys). The widget must
-list every hostname the form runs on, including the Amplify preview host. `downloadSigningKey` signs the file links in the
+list every hostname the form runs on: `formworkforconcrete.com` and the Amplify preview host `main.d26eoc1yza6uci.amplifyapp.com`
+(otherwise the widget fails with error 110200 and the form cannot be submitted there). `downloadSigningKey` signs the file links in the
 notification mails; changing it invalidates links already sent.
 
 ## 4. The Amplify app
@@ -101,15 +108,15 @@ notification mails; changing it invalidates links already sent.
    so the variables are inlined into the static export. Later pushes to `main` build automatically.
 4. After the first build run `pnpm media:warm` (it pre-generates the Cloudinary image variants of the pages).
 5. **Test on the preview URL** (this replaces the `next.formworkforconcrete.com` staging subdomain of the plan): the form with
-   and without files, `pnpm seo:check https://main.<app-id>.amplifyapp.com --redirects` (this also tells whether Amplify
-   redirects a path without the trailing slash to the one with it, which the old site did), the 404 page, the headers.
+   and without files, `pnpm seo:check https://main.<app-id>.amplifyapp.com --redirects` and `pnpm gsc:check https://main.<app-id>.amplifyapp.com --redirects`
+   (every URL of the Search Console export, including the slash-less redirects), the 404 page, the headers.
    Canonicals point at the production domain, so the preview does not compete with it in search, but it has no `noindex`.
 
 ## 5. Go live (cutover)
 
 The plan assumed "the cutover changes no DNS". With Amplify it does: the website records move from Hostinger to Amplify.
 
-1. **Before:** the Search Console export of the old site (Pages, last 12 months) is saved; the owner has approved the cutover time.
+1. **Before:** the Search Console export of the old site is saved (done: 2026-10-06, `pnpm gsc:check` shows no URL with traffic would 404); the owner has approved the cutover time.
 2. Set `custom_domain_name = "formworkforconcrete.com"` and apply. Amplify shows the DNS records it needs (certificate validation
    CNAME and the target for the domain).
 3. In Google Cloud DNS: the apex needs an `ALIAS`/`ANAME` record (Cloud DNS supports it through `gcloud` or the API, not the

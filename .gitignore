@@ -37,6 +37,9 @@ yarn-error.log*
 # The rebuild plan holds the Hostinger SSH details (host, port, user, key path), so it stays on the owner's machine
 /plans/
 
+# Search Console exports (performance data of the live site) stay on the owner's machine, the repo is public
+/seo-baseline/search-console-*.csv
+
 # local scratch: the WordPress extract (page HTML, Elementor JSON, screenshots) and Lighthouse reports
 /extract/
 /lh/

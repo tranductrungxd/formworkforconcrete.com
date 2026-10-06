@@ -2,9 +2,9 @@
 # tfvars file because Terraform records variable values in plans and state.
 aws_profile = "rfm-aws-manage"
 
-# Public Turnstile site key of the formworkforconcrete.com widget (create it in Cloudflare first). The secret key
-# goes into Secrets Manager, never here.
-# turnstile_site_key = "0x4AAAAAAA..."
+# Public Turnstile site key of the formworkforconcrete.com widget; the default in variables.tf is already set. The
+# secret key goes into Secrets Manager, never here.
+# turnstile_site_key = "0x4AAAAAAFPT7o8CrqUSUwyG"
 
 # Add the Amplify preview origin while testing, e.g. "https://main.<app-id>.amplifyapp.com".
 contact_allowed_origins = [

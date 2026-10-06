@@ -10,7 +10,7 @@ set -euo pipefail
 PROFILE="${AWS_PROFILE:-oceanbim-admin}"
 REGION="${AWS_REGION:-ap-southeast-1}"
 SECRET_ID="${SECRET_ID:-formworkforconcrete-com}"
-SITE_KEY="${TURNSTILE_SITE_KEY:-}" # optional: the public key of the widget; pasting it here by mistake is then refused
+SITE_KEY="${TURNSTILE_SITE_KEY:-0x4AAAAAAFPT7o8CrqUSUwyG}" # the public key of the widget; pasting it here by mistake is refused
 
 read -rsp "Paste the Turnstile SECRET key (input is hidden), then press Enter: " KEY
 echo

@@ -13,6 +13,7 @@
     "media:warm": "node scripts/warm-images.mjs",
     "seo:check": "node scripts/seo-check.ts",
     "links:check": "node scripts/link-check.mjs",
+    "gsc:check": "node scripts/gsc-check.mjs",
     "text:check": "node scripts/text-diff.mjs",
     "media:scan": "node scripts/media-scan.mjs",
     "shots": "node scripts/screenshots.mjs",
