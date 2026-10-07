@@ -39,6 +39,23 @@ export interface Submission {
   /** https link to files shared elsewhere (Drive, Dropbox, WeTransfer…), or "". */
   filesLink: string;
   files: FileMeta[];
+  /** Where the visit came from (lib/track.ts in the site): only the fields that were sent and not empty. */
+  source: Partial<Record<SourceField, string>>;
+}
+
+export const SOURCE_FIELDS = ["landing", "referrer", "utmSource", "utmMedium", "utmCampaign", "utmTerm", "utmContent", "ctaPage"] as const;
+export type SourceField = (typeof SOURCE_FIELDS)[number];
+
+/** Optional and never a reason to refuse an enquiry: anything malformed is dropped. */
+function parseSource(raw: unknown): Submission["source"] {
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return {};
+  const r = raw as Record<string, unknown>;
+  const out: Submission["source"] = {};
+  for (const k of SOURCE_FIELDS) {
+    const v = clean(r[k], 300);
+    if (v) out[k] = v;
+  }
+  return out;
 }
 
 export type ParseResult =
@@ -116,5 +133,5 @@ export function parseSubmit(body: unknown): ParseResult {
   const files = parseFiles(b.files);
   if (files === null) return { ok: false, error: "files" };
 
-  return { ok: true, honeypot: false, turnstileToken, value: { name, company, email, country, projectType, message, filesLink, files } };
+  return { ok: true, honeypot: false, turnstileToken, value: { name, company, email, country, projectType, message, filesLink, files, source: parseSource(b.source) } };
 }

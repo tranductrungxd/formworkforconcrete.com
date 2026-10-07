@@ -4,6 +4,7 @@ import Script from "next/script";
 import { useCallback, useEffect, useRef, useState, type FormEvent } from "react";
 import { form as t } from "@/content/form";
 import { company } from "@/content/site";
+import { readLeadSource, track } from "@/lib/track";
 
 // Must match services/contact/src/validate.ts.
 const MAX_BYTES = 250 * 1024 * 1024;
@@ -46,7 +47,8 @@ const input = "min-h-12 border border-line bg-white p-3 text-[16px] font-normal 
  *      a honeypot field and the time the visitor took to fill the form.
  *   2. With files, the answer holds one upload URL per file. The browser sends each file straight to S3
  *      (a Lambda could not take 50 MB), then calls POST /complete so the service can send the mail.
- * On success it fires the GA4 event `generate_lead`.
+ * GA4 events: quote_form_start (first interaction), file_upload (files chosen) and, on success, generate_lead. The source
+ * of the visit (landing page, referrer, UTM tags, page of the quote button; lib/track.ts) goes with the enquiry.
  */
 export function ContactForm() {
   const [status, setStatus] = useState<Status>("idle");
@@ -55,6 +57,7 @@ export function ContactForm() {
   const shownAt = useRef(0);
   const widgetBox = useRef<HTMLDivElement>(null);
   const widgetId = useRef<string | null>(null);
+  const started = useRef(false);
 
   useEffect(() => {
     // Same clock as the event.timeStamp read on submit.
@@ -112,6 +115,7 @@ export function ContactForm() {
       projectType: text("project_type"),
       message: text("message"),
       filesLink: text("files_link"),
+      source: readLeadSource(),
       website: text("website"),
       elapsedMs,
       turnstileToken,
@@ -143,7 +147,7 @@ export function ContactForm() {
     }
 
     setStatus("ok");
-    window.gtag?.("event", "generate_lead", { form_id: "contact", site: "formworkforconcrete.com" });
+    track("generate_lead", { form_id: "contact", site: "formworkforconcrete.com", project_type: text("project_type") || "none", has_files: files.length > 0, has_link: text("files_link") !== "" });
   }
 
   if (status === "ok") {
@@ -155,7 +159,14 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={onSubmit} className="grid grid-cols-1 gap-[18px] sm:grid-cols-2">
+    <form
+      onSubmit={onSubmit}
+      onFocus={() => {
+        if (started.current) return;
+        started.current = true;
+        track("quote_form_start", { form_id: "contact" });
+      }}
+      className="grid grid-cols-1 gap-[18px] sm:grid-cols-2">
       {configured && <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" strategy="afterInteractive" onReady={mountWidget} />}
       <label className={field}>
         {t.name}
@@ -196,7 +207,14 @@ export function ContactForm() {
         <span id="files-hint" className="text-[13px] font-normal text-muted">
           {t.filesHint}
         </span>
-        <input name="files" type="file" multiple accept={ALLOWED.map((e) => `.${e}`).join(",")} aria-describedby="files-hint" className="max-w-full text-[13px] font-normal" />
+        <input
+          name="files"
+          type="file"
+          onChange={(e) => {
+            const chosen = Array.from(e.currentTarget.files ?? []);
+            if (chosen.length) track("file_upload", { form_id: "contact", files: chosen.length, total_mb: Math.round(chosen.reduce((n, f) => n + f.size, 0) / 1048576) });
+          }}
+          multiple accept={ALLOWED.map((e) => `.${e}`).join(",")} aria-describedby="files-hint" className="max-w-full text-[13px] font-normal" />
       </label>
       <label className={`${field} col-span-full`}>
         {t.filesLink}
