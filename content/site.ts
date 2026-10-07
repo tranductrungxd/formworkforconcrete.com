@@ -14,6 +14,8 @@ export const company = {
 
 /** GA4 property of the old site; kept so reporting continues without a break. */
 export const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-YR5V883PZR";
+/** Microsoft Clarity project id (heatmaps, session recordings). Empty: Clarity is not loaded. */
+export const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID ?? "";
 
 /** Every contact call-to-action goes here (owner decision 2026-10-04). */
 export const CONTACT_FORM_HREF = "/contact-us/#contact-form";

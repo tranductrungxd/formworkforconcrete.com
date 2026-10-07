@@ -1,4 +1,15 @@
-import type { Submission } from "./validate.ts";
+import type { SourceField, Submission } from "./validate.ts";
+
+const SOURCE_LABELS: Record<SourceField, string> = {
+  landing: "Landing page",
+  referrer: "Referrer",
+  utmSource: "utm_source",
+  utmMedium: "utm_medium",
+  utmCampaign: "utm_campaign",
+  utmTerm: "utm_term",
+  utmContent: "utm_content",
+  ctaPage: "Quote button clicked on",
+};
 
 export interface StoredFile {
   name: string;
@@ -27,6 +38,10 @@ export function buildEmail(s: Submission, links: { file: StoredFile; url: string
     lines.push("", `Files (${links.length}, ${mb(total)}). The links work for 30 days:`);
     for (const { file, url } of links) lines.push(`- ${file.name} (${mb(file.size)})`, `  ${url}`);
   }
+  const source = Object.entries(s.source ?? {}) as [SourceField, string][];
+  lines.push("", "Source of the visit:");
+  if (source.length === 0) lines.push("- unknown (direct visit, or the browser blocks storage)");
+  for (const [k, v] of source) lines.push(`- ${SOURCE_LABELS[k]}: ${v}`);
   lines.push("", "---", "Sent from the contact form on formworkforconcrete.com");
 
   return {

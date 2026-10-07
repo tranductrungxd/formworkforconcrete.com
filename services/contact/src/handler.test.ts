@@ -288,6 +288,22 @@ describe("helpers", () => {
     assert.ok(String(mails[0].text).includes(`Link to files: ${link}`));
   });
 
+  it("keeps the source of the visit, drops junk, and lists it in the mail", async () => {
+    const source = { landing: "/formwork-design-for-a-suspended-concrete-slab/", referrer: "https://www.google.com/", ctaPage: "/projects/kyle-dam-foundation/", utmSource: "", evil: "x", utmCampaign: 42 };
+    const r = parseSubmit(form({ source }));
+    assert.deepEqual(r.ok && !r.honeypot && r.value.source, { landing: source.landing, referrer: source.referrer, ctaPage: source.ctaPage });
+    const junk = parseSubmit(form({ source: "nope" }));
+    assert.deepEqual(junk.ok && !junk.honeypot && junk.value.source, {});
+    const { handler, mails } = setup();
+    await handler(event("/submit", form({ source })));
+    const text = String(mails[0].text);
+    assert.ok(text.includes("- Landing page: /formwork-design-for-a-suspended-concrete-slab/"));
+    assert.ok(text.includes("- Quote button clicked on: /projects/kyle-dam-foundation/"));
+    const { handler: h2, mails: m2 } = setup();
+    await h2(event("/submit", form()));
+    assert.ok(String(m2[0].text).includes("- unknown (direct visit"));
+  });
+
   it("only accepts a complete secret", () => {
     const good = { turnstileSecret: "s", downloadSigningKey: KEY };
     assert.ok(parseConfig(good));
