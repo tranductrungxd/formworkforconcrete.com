@@ -12,6 +12,19 @@ export const home = {
     secondary: { label: "See Our Projects", href: "/projects/" },
     video: { id: "USFsVL9uJtM", title: "Formwork For Concrete Animation", poster: "https://i.ytimg.com/vi/USFsVL9uJtM/maxresdefault.jpg" as MediaUrl },
   },
+  // New 2026-10-07: clients the owner has worked for (logos supplied by the owner, in Cloudinary under clients/).
+  clients: {
+    label: "Clients",
+    heading: "Trusted by Concrete Contractors",
+    text: "Some of the contractors we have designed and drawn formwork for.",
+    logos: [
+      { name: "Sercon Construction", image: "https://res.cloudinary.com/oceanbim/image/upload/v1791378450/formworkforconcrete.com/clients/sercon-construction.png" as MediaUrl },
+      { name: "L7 Construction, Inc.", image: "https://res.cloudinary.com/oceanbim/image/upload/v1791378449/formworkforconcrete.com/clients/l7-construction.png" as MediaUrl },
+      { name: "C&R Concrete Construction, Inc.", image: "https://res.cloudinary.com/oceanbim/image/upload/v1791378478/formworkforconcrete.com/clients/cr-concrete-construction.png" as MediaUrl },
+      { name: "Gael Form Ltd.", image: "https://res.cloudinary.com/oceanbim/image/upload/v1791378448/formworkforconcrete.com/clients/gael-form.png" as MediaUrl },
+      { name: "Wayne E. Swisher Cement Contractor, Inc.", image: "https://res.cloudinary.com/oceanbim/image/upload/v1791378450/formworkforconcrete.com/clients/wayne-e-swisher-cement-contractor.png" as MediaUrl },
+    ],
+  },
   problems: {
     heading: "Where Formwork Goes Wrong",
     intro: "Most formwork problems don’t start on site. They start in the drawings.",
