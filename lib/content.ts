@@ -26,6 +26,8 @@ export interface Post {
   cover: MediaUrl;
   coverAlt: string;
   tags: string[];
+  /** Slugs of the similar projects listed at the end of the post. */
+  projects: string[];
   body: string;
 }
 
@@ -72,9 +74,26 @@ export function getPosts(): Post[] {
       cover: str(data.cover) as MediaUrl,
       coverAlt: str(data.coverAlt),
       tags: list(data.tags),
+      projects: list(data.projects),
       body,
     }))
     .sort((a, b) => b.date.localeCompare(a.date));
+}
+
+/** The projects with these slugs, in that order. An unknown slug fails the build instead of dropping a link. */
+export function getProjectsBySlug(slugs: string[]): Project[] {
+  return slugs.map((slug) => {
+    const project = getProject(slug);
+    if (!project) throw new Error(`Unknown project "${slug}"`);
+    return project;
+  });
+}
+
+/** The three projects after this one in the A to Z order, wrapping around: the "similar projects" of a project page. */
+export function getOtherProjects(slug: string, count = 3): Project[] {
+  const all = getProjects();
+  const at = all.findIndex((p) => p.slug === slug);
+  return Array.from({ length: Math.min(count, all.length - 1) }, (_, i) => all[(at + 1 + i) % all.length]);
 }
 
 export const getPost = (slug: string) => getPosts().find((p) => p.slug === slug);

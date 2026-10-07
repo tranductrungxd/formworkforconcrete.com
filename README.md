@@ -59,8 +59,8 @@ exactly as in the baseline; those files are in `public/`.
 
 `/contact-us/#contact-form` (every contact button of the site links there). `ContactForm` talks to the contact service
 (`services/contact`, a Lambda behind a function URL, `NEXT_PUBLIC_FORM_ENDPOINT`): Cloudflare Turnstile against bots, a
-honeypot and a 3 s minimum fill time, Amazon SES for the mail, files straight to a private S3 bucket (up to 6 files, 50 MB
-in total; pdf, dwg, dxf, ifc, rvt, zip, jpg, png), 30-day signed download links in the mail. On success it fires the GA4
+honeypot and a 3 s minimum fill time, Amazon SES for the mail, files straight to a private S3 bucket (up to 10 files, 250 MB
+in total; pdf, dwg, dxf, ifc, rvt, zip, jpg, png) or an https link to files shared elsewhere, 30-day signed download links in the mail. On success it fires the GA4
 event `generate_lead`. Without `NEXT_PUBLIC_FORM_ENDPOINT` and `NEXT_PUBLIC_TURNSTILE_SITE_KEY` the form shows the email
 address instead of submitting. The recipient and sender are Terraform variables (`contact_to_email`, `contact_from_email`).
 
@@ -89,12 +89,10 @@ console-created app is adopted, the app settings and the 44 redirect rules that 
 (`infrastructure/redirects.tf`, generated from `seo-baseline/redirects.formworkforconcrete.com.csv` and the baseline page list). Response headers are in
 `customHttp.yml`. **Nothing has been deployed and nothing has been created in AWS yet.**
 
-## Analytics and chat
+## Analytics
 
-GA4 `G-YR5V883PZR` (gtag.js, as before, no cookie banner). The old site also loads the **Smartsupp live chat** (key in the
-WPCode header scripts; the plan said "no chat widget", which was wrong). It is kept and loads when the browser is idle after
-the page load. Set `NEXT_PUBLIC_SMARTSUPP_KEY=""` to switch it off. Neither has a consent banner (neither had one before);
-if EU visitors matter, a consent step should be added.
+GA4 `G-YR5V883PZR` (gtag.js, as before, no cookie banner; if EU visitors matter, a consent step should be added). The old
+site also loads the Smartsupp live chat; the new site does not (owner decision 2026-10-07).
 
 ## Migration tools (one time, kept for reference)
 

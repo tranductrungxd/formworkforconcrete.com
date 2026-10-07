@@ -1,15 +1,27 @@
-// Input rules for the contact form: name, company, email, country, project type, message and up to 6 files
-// (pdf, dwg, dxf, ifc, rvt, zip, jpg, png; 50 MB in total), as in section 7 of the rebuild plan.
+// Input rules for the contact form: name, company, email, country, project type, message, an optional link to files
+// hosted elsewhere and up to 10 files (pdf, dwg, dxf, ifc, rvt, zip, jpg, png; 250 MB in total). The files go straight
+// from the browser to S3, so the size only costs upload time, not Lambda memory.
 
 export const ALLOWED_EXT = ["pdf", "dwg", "dxf", "ifc", "rvt", "zip", "jpg", "jpeg", "png"];
 // Must match the options of content/form.ts.
 export const PROJECT_TYPES = ["foundations", "walls", "slabs", "beams-columns", "elevator-cores", "scaffolding", "other"];
-export const MAX_FILES = 6;
-export const MAX_TOTAL_BYTES = 50 * 1024 * 1024;
+export const MAX_FILES = 10;
+export const MAX_TOTAL_BYTES = 250 * 1024 * 1024;
 export const MIN_FILL_MS = 3000;
 export const BODY_LIMIT = 16 * 1024;
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+
+/** "" stays "", an https URL is kept as given, anything else is null (refused). */
+function parseLink(raw: string): string | null {
+  if (raw === "") return "";
+  try {
+    const url = new URL(raw);
+    return url.protocol === "https:" && url.hostname.includes(".") ? raw : null;
+  } catch {
+    return null;
+  }
+}
 
 export interface FileMeta {
   /** Display name, already safe to use in an object key and a header. */
@@ -24,6 +36,8 @@ export interface Submission {
   country: string;
   projectType: string;
   message: string;
+  /** https link to files shared elsewhere (Drive, Dropbox, WeTransfer…), or "". */
+  filesLink: string;
   files: FileMeta[];
 }
 
@@ -88,9 +102,10 @@ export function parseSubmit(body: unknown): ParseResult {
   const country = clean(b.country, 80);
   let projectType = clean(b.projectType, 40);
   const message = clean(b.message, 5000, true);
+  const filesLink = parseLink(clean(b.filesLink, 500));
   const turnstileToken = typeof b.turnstileToken === "string" ? b.turnstileToken.trim() : "";
 
-  if (name === "" || message === "" || !EMAIL_RE.test(email) || !turnstileToken || turnstileToken.length > 2048) {
+  if (name === "" || message === "" || !EMAIL_RE.test(email) || filesLink === null || !turnstileToken || turnstileToken.length > 2048) {
     return { ok: false, error: "invalid" };
   }
   if (projectType !== "" && !PROJECT_TYPES.includes(projectType)) projectType = "other";
@@ -101,5 +116,5 @@ export function parseSubmit(body: unknown): ParseResult {
   const files = parseFiles(b.files);
   if (files === null) return { ok: false, error: "files" };
 
-  return { ok: true, honeypot: false, turnstileToken, value: { name, company, email, country, projectType, message, files } };
+  return { ok: true, honeypot: false, turnstileToken, value: { name, company, email, country, projectType, message, filesLink, files } };
 }

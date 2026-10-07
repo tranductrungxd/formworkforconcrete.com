@@ -11,6 +11,13 @@ const baseline = parseCsv(fs.readFileSync(path.join(root, 'seo-baseline/formwork
 const norm = (s) => s.replace(/[‘’′]/g, "'").replace(/[“”]/g, '"').replace(/[–—]/g, '-').replace(/ |​/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
 const STRIP = 'script,style,noscript,svg,header,footer,nav,.elementor-location-header,.elementor-location-footer,[data-elementor-type="popup"],.vamtam-scroll-to-top,#scroll-to-top,.elementor-nav-menu,.elementor-menu-toggle,#smartsupp-widget-container,[class*="rocket"],.screen-reader-text,.elementor-screen-only';
 
+// Old text replaced on purpose (website audit, 2026-10-07): the quote band of the project template now names the next step.
+const REPLACED = new Set([
+  'contact us for free quotation',
+  'contact us for a free consultation, customized to meet the specific needs of your project',
+  'contact us',
+]);
+
 function load(file) {
   const $ = cheerio.load(fs.readFileSync(file, 'utf8'));
   $(STRIP).remove();
@@ -32,7 +39,7 @@ for (const b of baseline) {
     // skip containers whose text is built from child blocks that are checked on their own
     if ($old(el).find('p,h1,h2,h3,h4,h5,h6,li').length) return;
     const t = norm($old(el).text());
-    if (t.length > 2) blocks.add(t);
+    if (t.length > 2 && !REPLACED.has(t)) blocks.add(t);
   });
   const miss = [...blocks].filter((t) => !haystack.includes(t));
   console.log(`${p}  ${blocks.size - miss.length}/${blocks.size} blocks found${miss.length ? '' : ''}`);

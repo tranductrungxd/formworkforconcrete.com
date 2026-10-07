@@ -5,8 +5,9 @@ import { useCallback, useEffect, useRef, useState, type FormEvent } from "react"
 import { form as t } from "@/content/form";
 import { company } from "@/content/site";
 
-const MAX_BYTES = 50 * 1024 * 1024;
-const MAX_FILES = 6;
+// Must match services/contact/src/validate.ts.
+const MAX_BYTES = 250 * 1024 * 1024;
+const MAX_FILES = 10;
 const ALLOWED = ["pdf", "dwg", "dxf", "ifc", "rvt", "zip", "jpg", "jpeg", "png"];
 // Both are public by design and inlined at build time (set by Terraform on the Amplify app).
 const ENDPOINT = (process.env.NEXT_PUBLIC_FORM_ENDPOINT ?? "").trim().replace(/\/$/, "");
@@ -50,6 +51,7 @@ const input = "min-h-12 border border-line bg-white p-3 text-[16px] font-normal 
 export function ContactForm() {
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState("");
+  const [uploading, setUploading] = useState(false);
   const shownAt = useRef(0);
   const widgetBox = useRef<HTMLDivElement>(null);
   const widgetId = useRef<string | null>(null);
@@ -101,6 +103,7 @@ export function ContactForm() {
 
     setStatus("sending");
     setError("");
+    setUploading(files.length > 0);
     const first = await post("/submit", {
       name: text("name"),
       company: text("company"),
@@ -108,6 +111,7 @@ export function ContactForm() {
       country: text("country"),
       projectType: text("project_type"),
       message: text("message"),
+      filesLink: text("files_link"),
       website: text("website"),
       elapsedMs,
       turnstileToken,
@@ -182,7 +186,10 @@ export function ContactForm() {
       </label>
       <label className={`${field} col-span-full`}>
         {t.message}
-        <textarea name="message" required rows={6} maxLength={5000} className={`${input} resize-y`} />
+        <span id="message-hint" className="text-[13px] font-normal text-muted">
+          {t.messageHint}
+        </span>
+        <textarea name="message" required rows={6} maxLength={5000} aria-describedby="message-hint" className={`${input} resize-y`} />
       </label>
       <label className="col-span-full flex cursor-pointer flex-col items-center gap-1.5 border border-dashed border-muted p-5 text-center text-[15px] font-bold text-ink">
         {t.files}
@@ -190,6 +197,13 @@ export function ContactForm() {
           {t.filesHint}
         </span>
         <input name="files" type="file" multiple accept={ALLOWED.map((e) => `.${e}`).join(",")} aria-describedby="files-hint" className="max-w-full text-[13px] font-normal" />
+      </label>
+      <label className={`${field} col-span-full`}>
+        {t.filesLink}
+        <span id="files-link-hint" className="text-[13px] font-normal text-muted">
+          {t.filesLinkHint}
+        </span>
+        <input name="files_link" type="url" inputMode="url" placeholder="https://" maxLength={500} pattern="https://.+" aria-describedby="files-link-hint" className={input} />
       </label>
 
       {/* Honeypot: hidden from people, irresistible to bots. */}
@@ -213,6 +227,11 @@ export function ContactForm() {
               {company.email}
             </a>
             .
+          </p>
+        )}
+        {status === "sending" && uploading && (
+          <p role="status" className="mt-5 text-[15px] text-muted">
+            {t.uploading}
           </p>
         )}
         {status === "error" && (

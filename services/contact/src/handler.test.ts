@@ -90,6 +90,7 @@ describe("submit without files", () => {
     assert.equal(mails[0].to, "contact@formworkforconcrete.com");
     assert.equal(mails[0].from, "forms@formworkforconcrete.com");
     assert.match(String(mails[0].subject), /Ada Lovelace \(Analytical GmbH\)/);
+    assert.doesNotMatch(String(mails[0].text), /Link to files/);
     assert.equal((objects.get(`submissions/${"1".padStart(32, "0")}/submission.json`)?.json as { mailed: boolean }).mailed, true);
   });
 
@@ -203,8 +204,8 @@ describe("spam and abuse checks", () => {
     const { handler } = setup();
     const bad = [
       [{ name: "virus.exe", size: 10 }],
-      Array.from({ length: 7 }, (_, i) => ({ name: `a${i}.pdf`, size: 10 })),
-      [{ name: "a.pdf", size: 30 * 1024 * 1024 }, { name: "b.pdf", size: 30 * 1024 * 1024 }],
+      Array.from({ length: 11 }, (_, i) => ({ name: `a${i}.pdf`, size: 10 })),
+      [{ name: "a.pdf", size: 130 * 1024 * 1024 }, { name: "b.pdf", size: 130 * 1024 * 1024 }],
       [{ name: "a.pdf", size: 0 }],
     ];
     for (const files of bad) {
@@ -267,6 +268,24 @@ describe("helpers", () => {
     assert.equal(r.ok && !r.honeypot && r.value.projectType, "other");
     assert.deepEqual(parseSubmit(form({ email: "nope" })), { ok: false, error: "invalid" });
     assert.deepEqual(parseSubmit(form({ message: "  " })), { ok: false, error: "invalid" });
+  });
+
+  it("accepts 10 files and 250 MB in total", () => {
+    const files = Array.from({ length: 10 }, (_, i) => ({ name: `a${i}.pdf`, size: 25 * 1024 * 1024 }));
+    const r = parseSubmit(form({ files }));
+    assert.equal(r.ok && !r.honeypot && r.value.files.length, 10);
+  });
+
+  it("keeps an https link to files, puts it in the mail and refuses other links", async () => {
+    const link = "https://www.dropbox.com/scl/fo/abc/drawings?dl=0";
+    const r = parseSubmit(form({ filesLink: ` ${link} ` }));
+    assert.equal(r.ok && !r.honeypot && r.value.filesLink, link);
+    for (const bad of ["http://example.com/a", "javascript:alert(1)", "dropbox", "https://localhost/x"]) {
+      assert.deepEqual(parseSubmit(form({ filesLink: bad })), { ok: false, error: "invalid" });
+    }
+    const { handler, mails } = setup();
+    await handler(event("/submit", form({ filesLink: link })));
+    assert.ok(String(mails[0].text).includes(`Link to files: ${link}`));
   });
 
   it("only accepts a complete secret", () => {

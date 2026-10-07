@@ -5,6 +5,7 @@ category: "Blog-post"
 cover: "https://formworkforconcrete.com/wp-content/uploads/2024/11/architects-and-engineers-are-working-together-to-e-min-scaled.jpg"
 coverAlt: "formwork-design-service"
 tags: ["#BIM", "#BuildingDesign", "#Concrete", "#ConcreteConstruction", "#ConstructionDrawings", "#ConstructionJoints", "#ConstructionPlanning", "#ConstructionSafety", "#Formwork", "#FormworkDesign", "#ProjectManagement", "#QualityControl", "#ShopDrawings", "#StructuralEngineering", "Construction"]
+projects: ["brb-mbr-structure", "kyle-dam-foundation", "ajax-foundation"]
 ---
 Are you looking for a skilled **formwork engineer and designer** to bring your project to life?
 

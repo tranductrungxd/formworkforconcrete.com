@@ -14,12 +14,6 @@ export const company = {
 
 /** GA4 property of the old site; kept so reporting continues without a break. */
 export const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-YR5V883PZR";
-/**
- * Smartsupp live chat. The old site loads it from its WPCode header scripts, so it is kept (the plan said "no chat
- * widget", which was wrong). The key is public (it is in every page of the old site). Set
- * NEXT_PUBLIC_SMARTSUPP_KEY="" to switch the widget off.
- */
-export const SMARTSUPP_KEY = process.env.NEXT_PUBLIC_SMARTSUPP_KEY ?? "2f5bb9f62ee72e7a4d09e6a4a56373ab5ab7e590";
 
 /** Every contact call-to-action goes here (owner decision 2026-10-04). */
 export const CONTACT_FORM_HREF = "/contact-us/#contact-form";

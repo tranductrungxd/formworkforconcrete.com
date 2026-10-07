@@ -67,7 +67,11 @@ resource "aws_amplify_domain_association" "custom" {
   app_id                 = aws_amplify_app.this[0].id
   domain_name            = var.custom_domain_name
   enable_auto_sub_domain = false
-  # Do not wait for DNS: the records are published by hand in Google Cloud DNS, at cutover.
+  # Do not wait for DNS: the records are published by hand in Squarespace Domains (no API), see the
+  # `amplify_dns_records` output. Amplify gives up after a while without the certificate record
+  # (status FAILED in `aws amplify get-domain-association`); to retry, recreate this resource:
+  #   terraform apply -replace='aws_amplify_domain_association.custom[0]'
+  # It costs nothing while the site records still point elsewhere, but it may issue a new certificate record.
   wait_for_verification = false
 
   sub_domain {
