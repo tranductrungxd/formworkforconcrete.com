@@ -32,3 +32,27 @@ output "amplify_default_domain" {
   description = "Amplify-generated hostname, once the app is adopted."
   value       = one(aws_amplify_app.this[*].default_domain)
 }
+
+locals {
+  amplify_domain = one(aws_amplify_domain_association.custom[*])
+  # "_abc.formworkforconcrete.com. CNAME _def.acm-validations.aws." (empty for a moment after the domain is added)
+  amplify_cert_record = try(regex("^(\\S+)\\s+CNAME\\s+(\\S+)$", trimspace(local.amplify_domain.certificate_verification_dns_record)), null)
+}
+
+output "amplify_dns_records" {
+  description = "The records to publish in Squarespace Domains (DNS Settings, Custom records), in its terms: Name without the domain, Data without the final dot. The certificate record first; the @ and www records are the cutover."
+  value = local.amplify_domain == null ? null : concat(
+    local.amplify_cert_record == null ? [] : [{
+      purpose = "SSL certificate validation (no effect on visitors)"
+      type    = "CNAME"
+      name    = trimsuffix(local.amplify_cert_record[0], ".${var.custom_domain_name}.")
+      data    = trimsuffix(local.amplify_cert_record[1], ".")
+    }],
+    [for s in local.amplify_domain.sub_domain : {
+      purpose = "cutover: replaces the A record of ${s.prefix == "" ? "@" : s.prefix}"
+      type    = s.prefix == "" ? "ALIAS" : "CNAME"
+      name    = s.prefix == "" ? "@" : s.prefix
+      data    = trimsuffix(try(regex("CNAME\\s+(\\S+)", s.dns_record)[0], ""), ".")
+    }],
+  )
+}

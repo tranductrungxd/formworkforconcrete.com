@@ -117,11 +117,18 @@ notification mails; changing it invalidates links already sent.
 The plan assumed "the cutover changes no DNS". With Amplify it does: the website records move from Hostinger to Amplify.
 
 1. **Before:** the Search Console export of the old site is saved (done: 2026-10-06, `pnpm gsc:check` shows no URL with traffic would 404); the owner has approved the cutover time.
-2. Set `custom_domain_name = "formworkforconcrete.com"` and apply. Amplify shows the DNS records it needs (certificate validation
-   CNAME and the target for the domain).
-3. In Google Cloud DNS: the apex needs an `ALIAS`/`ANAME` record (Cloud DNS supports it through `gcloud` or the API, not the
-   console) or the DNS zone moves to Route 53; `www` gets a CNAME. **Keep the MX records (Hostinger mail), SPF/DKIM and every
-   other record exactly as they are.**
+2. `custom_domain_name = "formworkforconcrete.com"` (set, applied 2026-10-06). `terraform output amplify_dns_records` lists
+   the records to publish, already in Squarespace's terms. The DNS is managed in **Squarespace Domains** (DNS Settings → Custom
+   records; the name servers are Google's, but there is no API and no `gcloud` access, so the records are entered by hand).
+   - First the **certificate CNAME** only (no effect on visitors). Amplify only waits a limited time for it; if
+     `aws amplify get-domain-association --app-id d26eoc1yza6uci --domain-name formworkforconcrete.com --query domainAssociation.domainStatus`
+     says `FAILED` (the Terraform provider does not expose the status), run `terraform apply -replace='aws_amplify_domain_association.custom[0]'`
+     and publish the record the output then shows (it can change).
+3. Once Amplify reports the certificate as issued: delete the two `A` records (`@` and `www`, `153.92.9.131`, Hostinger), add
+   `ALIAS @` and `CNAME www` from the output. Squarespace offers `ALIAS` for the root; it may refuse it while DNSSEC is on
+   (it is on: DS record at the registry), then switch DNSSEC off in Squarespace first. Lowering the TTL of the two `A` records
+   to 5 minutes a few hours before makes a rollback fast. **Keep the MX records (Hostinger mail), SPF/DKIM/DMARC, the Google
+   verification CNAME and every other record exactly as they are.**
 4. After DNS propagates: `pnpm seo:check https://formworkforconcrete.com --redirects`, submit `/sitemap.xml` in Search Console and
    request indexing for `/`, `/contact-us/` and `/projects/`, watch the Pages report and the 404s daily for 2 weeks, then weekly
    until week 6, and compare GA4 traffic with the weeks before.

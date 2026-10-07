@@ -113,8 +113,8 @@ variable "uploads_retention_days" {
 }
 
 variable "custom_domain_name" {
-  description = "Amplify custom domain. Registering it only requests the SSL certificate and shows the DNS records; visitors are not affected until the DNS records are changed. Also switches on the www to apex redirect. Null (default) until the cutover."
+  description = "Amplify custom domain. Registering it only requests the SSL certificate and shows the DNS records; visitors are not affected until the DNS records are changed. Also switches on the www to apex redirect. Set for the cutover (2026-10-06)."
   type        = string
-  default     = null
+  default     = "formworkforconcrete.com"
   nullable    = true
 }
