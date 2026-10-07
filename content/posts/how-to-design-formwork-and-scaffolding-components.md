@@ -5,8 +5,9 @@ category: "Blog-post"
 cover: "https://formworkforconcrete.com/wp-content/uploads/2025/03/Design-Formwork-and-Scaffolding-Components.jpeg"
 coverAlt: "Design Formwork and Scaffolding Components"
 tags: ["#BIM", "#BuildingDesign", "#Concrete", "#ConcreteConstruction", "#ConstructionDrawings", "#ConstructionJoints", "#ConstructionPlanning", "#ConstructionSafety", "#Formwork", "#FormworkDesign", "#ProjectManagement", "#QualityControl", "#ShopDrawings", "#StructuralEngineering", "Construction"]
+projects: ["formwork-peitro-carnaghi-foudation", "formwork-core-walls", "outlet-spillway-dam"]
 ---
-Formwork and scaffolding play a crucial role in construction projects, providing support for concrete structures during pouring and curing. Brands like [Doka](https://www.doka.com/en/index), [PERI](https://www.peri.com/en/competences/formwork-systems.html?utm_source=chatgpt.com), and Titan offer modular systems that streamline the process.
+Formwork and scaffolding play a crucial role in construction projects, providing support for concrete structures during pouring and curing. Brands like [Doka](https://www.doka.com/en/index), [PERI](https://www.peri.com/en/competences/formwork-systems.html), and Titan offer modular systems that streamline the process.
 
 In this guide, we’ll walk through the step-by-step configuration method for designing formwork and scaffolding components without having to model each element from scratch.
 
@@ -28,9 +29,9 @@ Using this information, you can determine the most suitable formwork system.
 
 Manufacturers like Doka and PERI provide a variety of modular formwork solutions. Some common options include:
 
-- [Wall Formwork](https://direct.doka.com/_ext/downloads/downloadcenter/999729002_2022_01_online.pdf?utm_source=chatgpt.com): Doka Framax, PERI TRIO
-- [Slab Formwork](https://direct.doka.com/_ext/downloads/downloadcenter/999776002_2024_08_online.pdf?utm_source=chatgpt.com): Doka Dokadek 30, PERI SKYDECK
-- [Beam and Column Formwork](https://www.formtechinc.com/documents/forming-systems/clamp-systems/doka-framax/Doka-Framax-User-Information-Guide.pdf?utm_source=chatgpt.com): Doka Top 50, PERI VARIO
+- [Wall Formwork](https://direct.doka.com/_ext/downloads/downloadcenter/999729002_2022_01_online.pdf): Doka Framax, PERI TRIO
+- [Slab Formwork](https://direct.doka.com/_ext/downloads/downloadcenter/999776002_2024_08_online.pdf): Doka Dokadek 30, PERI SKYDECK
+- [Beam and Column Formwork](https://www.formtechinc.com/documents/forming-systems/clamp-systems/doka-framax/Doka-Framax-User-Information-Guide.pdf): Doka Top 50, PERI VARIO
 
 Consult the manufacturer’s technical catalog to match the system to your project requirements.
 

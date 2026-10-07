@@ -5,6 +5,7 @@ category: "Blog-post"
 cover: "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-supports-the-second-floor-of-a-monolithic-min-scaled.webp"
 coverAlt: "Expert formwork design services for robust concrete construction"
 tags: ["#BIM", "#BuildingDesign", "#Concrete", "#ConcreteConstruction", "#ConstructionDrawings", "#ConstructionJoints", "#ConstructionPlanning", "#ConstructionSafety", "#Formwork", "#FormworkDesign", "#ProjectManagement", "#QualityControl", "#ShopDrawings", "#StructuralEngineering", "Construction"]
+projects: ["formwork-new-house-doka", "formwork-belle-project", "pretreatment-structure-foudation-and-intermediate"]
 ---
 Formwork design plays a crucial role in constructing a suspended concrete slab, serving as the temporary mold that supports fresh concrete until it achieves the strength to stand on its own.
 

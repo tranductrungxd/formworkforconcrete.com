@@ -5,7 +5,7 @@ import { Column, Frame, Label } from "@/components/ui/Frame";
 import { Img } from "@/components/ui/Img";
 import { Markdown } from "@/components/ui/Markdown";
 import { projectTemplate } from "@/content/pages";
-import type { Project } from "@/lib/content";
+import { getOtherProjects, type Project } from "@/lib/content";
 
 type Block = { kind: "heading"; text: string } | { kind: "text"; md: string } | { kind: "gallery"; images: { alt: string; src: string }[] };
 
@@ -116,7 +116,7 @@ export function ProjectPage({ project }: { project: Project }) {
       <div className="mt-[60px]">
         <ExpertiseBand />
       </div>
-      <QuoteCta />
+      <QuoteCta projects={getOtherProjects(project.slug)} />
     </>
   );
 }

@@ -17,6 +17,7 @@ export function buildEmail(s: Submission, links: { file: StoredFile; url: string
     `Email: ${s.email}`,
     s.country ? `Country: ${s.country}` : null,
     s.projectType ? `Project type: ${s.projectType}` : null,
+    s.filesLink ? `Link to files: ${s.filesLink}` : null,
     "",
     s.message,
   ].filter((l): l is string => l !== null);

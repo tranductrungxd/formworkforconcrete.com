@@ -5,6 +5,7 @@ category: "Blog-post"
 cover: "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-concrete-design-pourmap-2.jpg"
 coverAlt: "Concrete pour map and sequencing plan for formwork design"
 tags: ["#BIM", "#BuildingDesign", "#Concrete", "#ConcreteConstruction", "#ConstructionDrawings", "#ConstructionJoints", "#ConstructionPlanning", "#ConstructionSafety", "#Formwork", "#FormworkDesign", "#ProjectManagement", "#QualityControl", "#ShopDrawings", "#StructuralEngineering", "Construction"]
+projects: ["ajax-foundation", "kyle-dam-foundation", "formwork-preliminary-treatment-facility"]
 ---
 In concrete construction, precision and planning are paramount. Two crucial aspects that often go hand-in-hand are **formwork shop drawings** and the **construction joint layout**.
 

@@ -18,6 +18,12 @@ export const contactPage = {
   form: {
     heading: "Send Your Drawings",
     intro: "Send us your structural set and tell us what you’re building with, and we’ll come back with a scope, a price and a delivery date.",
+    // Only facts the site already states (home page: fixed price, countries; the form: file types).
+    points: [
+      "Fixed price against a defined deliverable list",
+      "PDF, DWG, DXF, IFC and Revit files accepted",
+      "Contractors across the United States, Canada and Australia",
+    ],
   },
 } as const;
 
@@ -44,7 +50,7 @@ From large-scale civil projects to commercial foundations, we adapt our approach
 
 Looking for an experienced formwork partner? [Contact us](/contact-us/#contact-form) to discuss your next project.`,
   ctaHeading: "Great Projects Begin with GOOD Formwork",
-  ctaButton: "Contact us",
+  ctaButton: "Upload Drawings & Get a Quote",
   ctaImage: wp("2024/09/construction-worker-leveling-wet-cement-into-wood-min-scaled.webp"),
   ctaImageAlt: "Worker levelling wet concrete against a timber form",
   closing: `Our concrete formwork projects span a wide range of civil infrastructure applications, including **spillways**, **dams**, **retaining walls**, and **foundations**.
@@ -70,13 +76,13 @@ export const projectTemplate = {
     image: wp("2024/10/construction-of-the-stadium-aerial-view-min-scaled.webp"),
     imageAlt: "Aerial view of a stadium under construction",
   },
+  // Rewritten 2026-10-07 (website audit: a specific next step instead of "Contact us"). Also closes every post page.
   cta: {
     label: "Become a Customer",
-    heading: "CONTACT US FOR FREE QUOTATION",
-    text: "Contact us for a free consultation, customized to meet the specific needs of your project",
-    button: "Contact us",
-    // The old template points at /2023/09/pexels-laura-tancredi-7078502.jpg, which does not exist on the server
-    // either, so the right half of this band is empty on the live site. Left empty here too until the owner picks a photo.
+    heading: "Have a Similar Project?",
+    text: "Send us your structural drawings and tell us what formwork you have. We will review the scope and come back with a fixed price and a delivery date.",
+    button: "Upload Drawings & Get a Quote",
+    related: "Similar projects",
   },
   moreProjects: "More projects",
 } as const;

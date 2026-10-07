@@ -1,9 +1,10 @@
 import { PostCard } from "@/components/sections/PostCard";
+import { QuoteCta } from "@/components/sections/QuoteCta";
 import { Frame } from "@/components/ui/Frame";
 import { Img } from "@/components/ui/Img";
 import { Markdown } from "@/components/ui/Markdown";
 import { postTemplate } from "@/content/pages";
-import { formatDate, getPosts, type Post } from "@/lib/content";
+import { formatDate, getPosts, getProjectsBySlug, type Post } from "@/lib/content";
 
 export function PostPage({ post }: { post: Post }) {
   const related = getPosts()
@@ -26,6 +27,9 @@ export function PostPage({ post }: { post: Post }) {
           {post.tags.length > 0 && <p className="mt-[60px] text-[13px] leading-[1.2] text-muted">{post.tags.join(", ")}</p>}
         </article>
       </Frame>
+
+      {/* Website audit 2026-10-07: the posts bring most of the search traffic, so each ends with the quote band. */}
+      <QuoteCta projects={getProjectsBySlug(post.projects)} />
 
       <Frame className="border-t border-line">
         <h2 className="px-[30px] pb-[10px] pt-[60px] text-[24px]">{postTemplate.relatedHeading}</h2>

@@ -5,6 +5,7 @@ category: "Blog-post"
 cover: "https://formworkforconcrete.com/wp-content/uploads/2024/10/handmade-scaffolding-with-wooden-beams-and-bars-in-min-scaled.jpg"
 coverAlt: "Design layout of concrete formwork made from wood lumber and plywood panels"
 tags: ["Concrete Construction Services", "Concrete Formwork Design", "Construction Design Services", "Construction Support Services", "Custom Concrete Solutions", "Custom Formwork Solutions", "Engineering Design Services", "Expert Formwork Design", "Formwork Consulting", "Formwork Design Services", "Formwork Planning and Design", "Professional Formwork Design", "Structural Design Services", "Structural Engineering Services", "Temporary Structure Design"]
+projects: ["formwork-belle-project", "formwork-new-house-doka", "brb-mbr-structure"]
 ---
 When constructing concrete structures, one of the critical aspects to ensure the final product's quality and shape is the formwork.
 
