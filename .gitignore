@@ -62,3 +62,6 @@ infrastructure/**/backend.hcl
 
 # The contact service bundle is rebuilt by `pnpm form:build` before every `terraform apply`.
 /services/contact/dist/
+
+# Search Console reports (scripts/gsc-report.mjs): private data, the repo is public
+reports/
