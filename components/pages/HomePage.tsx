@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ClientLogos } from "@/components/sections/ClientLogos";
 import { Accordion } from "@/components/ui/Accordion";
 import { Button } from "@/components/ui/Button";
 import { Column, Frame, Label } from "@/components/ui/Frame";
@@ -41,6 +42,8 @@ export function HomePage() {
         </Column>
         <HeroVideo id={h.hero.video.id} title={h.hero.video.title} poster={h.hero.video.poster} />
       </section>
+
+      <ClientLogos />
 
       {/* Where formwork goes wrong */}
       <Frame className={grid3}>

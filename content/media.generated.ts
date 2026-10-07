@@ -97,6 +97,11 @@ export const mediaAssets = {
   "https://res.cloudinary.com/oceanbim/image/upload/v1670585680/marketing/Web%20design/FormworkForConcrete/Projects/MBR/formwork-concrete-design-oceanbim-mbr4_cdlkxk.jpg": { id: "marketing/Web design/FormworkForConcrete/Projects/MBR/formwork-concrete-design-oceanbim-mbr4_cdlkxk", w: 842, h: 595, alt: "Detailed formwork design drawing for concrete slabs" },
   "https://res.cloudinary.com/oceanbim/image/upload/v1670585682/marketing/Web%20design/FormworkForConcrete/Projects/MBR/formwork-concrete-design-oceanbim-mbr1_fkefsh.jpg": { id: "marketing/Web design/FormworkForConcrete/Projects/MBR/formwork-concrete-design-oceanbim-mbr1_fkefsh", w: 842, h: 595, alt: "Detailed formwork design drawing for concrete walls" },
   "https://res.cloudinary.com/oceanbim/image/upload/v1670816093/marketing/Web%20design/FormworkForConcrete/Branchs/ulma_uxnhjx.png": { id: "marketing/Web design/FormworkForConcrete/Branchs/ulma_uxnhjx", w: 451, h: 112, alt: "ULMA Construction formwork panels for concrete wall pouring" },
+  "https://res.cloudinary.com/oceanbim/image/upload/v1791378448/formworkforconcrete.com/clients/gael-form.png": { id: "formworkforconcrete.com/clients/gael-form", w: 110, h: 104, alt: "Gael Form Ltd. logo" },
+  "https://res.cloudinary.com/oceanbim/image/upload/v1791378449/formworkforconcrete.com/clients/l7-construction.png": { id: "formworkforconcrete.com/clients/l7-construction", w: 500, h: 309, alt: "L7 Construction, Inc. logo" },
+  "https://res.cloudinary.com/oceanbim/image/upload/v1791378450/formworkforconcrete.com/clients/sercon-construction.png": { id: "formworkforconcrete.com/clients/sercon-construction", w: 1637, h: 328, alt: "Sercon Construction logo" },
+  "https://res.cloudinary.com/oceanbim/image/upload/v1791378450/formworkforconcrete.com/clients/wayne-e-swisher-cement-contractor.png": { id: "formworkforconcrete.com/clients/wayne-e-swisher-cement-contractor", w: 180, h: 85, alt: "Wayne E. Swisher Cement Contractor, Inc. logo" },
+  "https://res.cloudinary.com/oceanbim/image/upload/v1791378478/formworkforconcrete.com/clients/cr-concrete-construction.png": { id: "formworkforconcrete.com/clients/cr-concrete-construction", w: 528, h: 31, alt: "C&R Concrete Construction, Inc. logo" },
 } as const satisfies Record<string, MediaAsset>;
 
 export type MediaUrl = keyof typeof mediaAssets;
