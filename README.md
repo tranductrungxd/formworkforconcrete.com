@@ -91,8 +91,11 @@ console-created app is adopted, the app settings and the 44 redirect rules that 
 
 ## Analytics
 
-GA4 `G-YR5V883PZR` (gtag.js, as before, no cookie banner; if EU visitors matter, a consent step should be added). The old
-site also loads the Smartsupp live chat; the new site does not (owner decision 2026-10-07).
+GA4 `G-YR5V883PZR` (gtag.js, as before) and Microsoft Clarity project `yujep5ekrx` (heatmaps and session recordings; typed
+text is masked by Clarity's default settings). Neither has a cookie banner; if EU visitors matter, a consent step should be
+added. Conversion events (`cta_click`, `email_click`, `quote_form_start`, `file_upload`, `generate_lead`) are described in
+`components/ui/Analytics.tsx`; `generate_lead` and `email_click` are GA4 key events. The old site also loads the Smartsupp live
+chat; the new site does not (owner decision 2026-10-07).
 
 ## Migration tools (one time, kept for reference)
 
