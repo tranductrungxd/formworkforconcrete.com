@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Copy fidelity check: every visible text block of the old WordPress page (extract/html/<page>.html) must appear in
-// the new page (out/<path>/index.html). Header, footer, menus and scripts are ignored on both sides.
+// the new page (out/<path>/index.html). Header, footer, menus and scripts are ignored on both sides, and so is the
+// old post-to-post navigation (.elementor-post-info): its links change as posts are added.
 //   node scripts/text-diff.mjs            (after `pnpm build`)
 import fs from 'node:fs';
 import path from 'node:path';
@@ -9,7 +10,7 @@ import { root, parseCsv } from './media-lib.mjs';
 
 const baseline = parseCsv(fs.readFileSync(path.join(root, 'seo-baseline/formworkforconcrete.com.pages.csv'), 'utf8'));
 const norm = (s) => s.replace(/[‘’′]/g, "'").replace(/[“”]/g, '"').replace(/[–—]/g, '-').replace(/ |​/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
-const STRIP = 'script,style,noscript,svg,header,footer,nav,.elementor-location-header,.elementor-location-footer,[data-elementor-type="popup"],.vamtam-scroll-to-top,#scroll-to-top,.elementor-nav-menu,.elementor-menu-toggle,#smartsupp-widget-container,[class*="rocket"],.screen-reader-text,.elementor-screen-only';
+const STRIP = 'script,style,noscript,svg,header,footer,nav,.elementor-location-header,.elementor-location-footer,[data-elementor-type="popup"],.vamtam-scroll-to-top,#scroll-to-top,.elementor-nav-menu,.elementor-menu-toggle,#smartsupp-widget-container,.elementor-post-info,[class*="rocket"],.screen-reader-text,.elementor-screen-only';
 
 // Old text replaced on purpose (website audit, 2026-10-07): the quote band of the project template now names the next step.
 const REPLACED = new Set([

@@ -231,7 +231,7 @@ export const seo: Record<string, SeoEntry> = {
     "ogImage": "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-concrete-design-pourmap-2.jpg",
     "h1": "Formwork Shop Drawings and Construction Joint Layout",
     "published": "2024-10-16T10:26:01+00:00",
-    "modified": "2024-10-16T10:52:16+00:00",
+    "modified": "2026-10-08T09:00:00+00:00",
     "image": {
       "url": "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-concrete-design-pourmap-2.jpg",
       "width": 842,
@@ -710,5 +710,274 @@ export const seo: Record<string, SeoEntry> = {
         "name": "Pretreatment Structure Foundation and Intermediate Slab"
       }
     ]
+  },
+  // Added after the migration (2026-10-08): new project pages and posts, not part of the WordPress baseline.
+  "/projects/fm-woods-wtp-wall-formwork/": {
+    "kind": "project",
+    "title": "F.M. Woods WTP Wall Formwork Drawings by Phase",
+    "description": "Timber wall formwork drawings for a water treatment plant upgrade: pour phases, panel and waler schedules, waterstops and a formwork BIM model.",
+    "canonical": "https://formworkforconcrete.com/projects/fm-woods-wtp-wall-formwork/",
+    "ogTitle": "F.M. Woods WTP Upgrades",
+    "ogDescription": "Timber wall formwork drawings for a water treatment plant upgrade: pour phases, panel and waler schedules, waterstops and a formwork BIM model.",
+    "ogImage": "https://res.cloudinary.com/oceanbim/image/upload/c_pad,b_white,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/fm-woods-wtp-wall-formwork/fmw-walls-3d-phase-2-1",
+    "h1": "F.M. Woods WTP Upgrades",
+    "published": "2026-10-08T09:00:00+00:00",
+    "modified": "2026-10-08T09:00:00+00:00",
+    "image": {
+      "url": "https://res.cloudinary.com/oceanbim/image/upload/c_pad,b_white,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/fm-woods-wtp-wall-formwork/fmw-walls-3d-phase-2-1",
+      "width": 1200,
+      "height": 630,
+      "caption": "Braced timber wall forms for a water treatment plant upgrade"
+    },
+    "breadcrumb": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Projects",
+        "path": "/projects/"
+      },
+      {
+        "name": "F.M. Woods WTP Upgrades"
+      }
+    ]
+  },
+  "/projects/chemical-storage-feed-system-formwork/": {
+    "kind": "project",
+    "title": "Chemical Storage Formwork Shop Drawings, Melbourne FL",
+    "description": "Formwork shop drawings for a chemical storage area in four pour phases: timber forms, bracing and block-out details, lumber and panel schedules.",
+    "canonical": "https://formworkforconcrete.com/projects/chemical-storage-feed-system-formwork/",
+    "ogTitle": "Chemical Storage and Feed System",
+    "ogDescription": "Formwork shop drawings for a chemical storage area in four pour phases: timber forms, bracing and block-out details, lumber and panel schedules.",
+    "ogImage": "https://res.cloudinary.com/oceanbim/image/upload/c_pad,b_white,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/chemical-storage-feed-system-formwork/chem-3d-pour-phases",
+    "h1": "Chemical Storage and Feed System",
+    "published": "2026-10-08T09:00:00+00:00",
+    "modified": "2026-10-08T09:00:00+00:00",
+    "image": {
+      "url": "https://res.cloudinary.com/oceanbim/image/upload/c_pad,b_white,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/chemical-storage-feed-system-formwork/chem-3d-pour-phases",
+      "width": 1200,
+      "height": 630,
+      "caption": "3D views of the four timber formwork pour phases"
+    },
+    "breadcrumb": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Projects",
+        "path": "/projects/"
+      },
+      {
+        "name": "Chemical Storage and Feed System"
+      }
+    ]
+  },
+  "/projects/uc-davis-equine-center-formwork/": {
+    "kind": "project",
+    "title": "UC Davis Equine Center Formwork Layouts with Cam-Lock",
+    "description": "Timber formwork layouts with Cam-Lock hardware for a treadmill pit, walls and slab edges at the UC Davis Equine Center, with panel and lumber schedules.",
+    "canonical": "https://formworkforconcrete.com/projects/uc-davis-equine-center-formwork/",
+    "ogTitle": "UC Davis Equine Performance & Rehabilitation Center",
+    "ogDescription": "Timber formwork layouts with Cam-Lock hardware for a treadmill pit, walls and slab edges at the UC Davis Equine Center, with panel and lumber schedules.",
+    "ogImage": "https://res.cloudinary.com/oceanbim/image/upload/c_pad,b_white,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/uc-davis-equine-center-formwork/ucd-3d-phase-5",
+    "h1": "UC Davis Equine Performance & Rehabilitation Center",
+    "published": "2026-10-08T09:00:00+00:00",
+    "modified": "2026-10-08T09:00:00+00:00",
+    "image": {
+      "url": "https://res.cloudinary.com/oceanbim/image/upload/c_pad,b_white,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/uc-davis-equine-center-formwork/ucd-3d-phase-5",
+      "width": 1200,
+      "height": 630,
+      "caption": "Timber wall forms with Cam-Lock hardware and kicker braces"
+    },
+    "breadcrumb": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Projects",
+        "path": "/projects/"
+      },
+      {
+        "name": "UC Davis Equine Performance & Rehabilitation Center"
+      }
+    ]
+  },
+  "/projects/villa-turks-and-caicos-formwork/": {
+    "kind": "project",
+    "title": "Villa Formwork Drawings and Pour Map, Turks and Caicos",
+    "description": "Pour map and timber formwork drawings for a two-storey concrete villa: 14 pours, footings, columns, pool walls and two suspended slab levels.",
+    "canonical": "https://formworkforconcrete.com/projects/villa-turks-and-caicos-formwork/",
+    "ogTitle": "Villa in Turks and Caicos",
+    "ogDescription": "Pour map and timber formwork drawings for a two-storey concrete villa: 14 pours, footings, columns, pool walls and two suspended slab levels.",
+    "ogImage": "https://res.cloudinary.com/oceanbim/image/upload/c_pad,b_white,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/villa-turks-and-caicos-formwork/villa-pour-map-overview",
+    "h1": "Villa in Turks and Caicos",
+    "published": "2026-10-08T09:00:00+00:00",
+    "modified": "2026-10-08T09:00:00+00:00",
+    "image": {
+      "url": "https://res.cloudinary.com/oceanbim/image/upload/c_pad,b_white,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/villa-turks-and-caicos-formwork/villa-pour-map-overview",
+      "width": 1200,
+      "height": 630,
+      "caption": "Colour-coded pour map of a two-storey villa"
+    },
+    "breadcrumb": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Projects",
+        "path": "/projects/"
+      },
+      {
+        "name": "Villa in Turks and Caicos"
+      }
+    ]
+  },
+  "/projects/hungry-horse-slab-shoring/": {
+    "kind": "project",
+    "title": "Slab and Beam Shoring Layout, Hungry Horse, Montana",
+    "description": "Slab and beam formwork in lumber on steel props: lumber plan, props plan, sections and 3D view, with site photos of the shoring as built.",
+    "canonical": "https://formworkforconcrete.com/projects/hungry-horse-slab-shoring/",
+    "ogTitle": "Slab and Beam Shoring, Hungry Horse, Montana",
+    "ogDescription": "Slab and beam formwork in lumber on steel props: lumber plan, props plan, sections and 3D view, with site photos of the shoring as built.",
+    "ogImage": "https://res.cloudinary.com/oceanbim/image/upload/c_fill,g_auto,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/hungry-horse-slab-shoring/hh-site-shoring-wide",
+    "h1": "Slab and Beam Shoring, Hungry Horse, Montana",
+    "published": "2026-10-08T09:00:00+00:00",
+    "modified": "2026-10-08T09:00:00+00:00",
+    "image": {
+      "url": "https://res.cloudinary.com/oceanbim/image/upload/c_fill,g_auto,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/hungry-horse-slab-shoring/hh-site-shoring-wide",
+      "width": 1200,
+      "height": 630,
+      "caption": "Steel props and timber beams supporting slab and beam formwork"
+    },
+    "breadcrumb": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Projects",
+        "path": "/projects/"
+      },
+      {
+        "name": "Slab and Beam Shoring, Hungry Horse, Montana"
+      }
+    ]
+  },
+  "/projects/oid-paulsell-gate-structures-formwork/": {
+    "kind": "project",
+    "title": "OID Paulsell Lateral Gate Structure Formwork",
+    "description": "Formwork drawings, hardware schedule and BIM model for 14 concrete structures of an irrigation canal expansion for the Oakdale Irrigation District.",
+    "canonical": "https://formworkforconcrete.com/projects/oid-paulsell-gate-structures-formwork/",
+    "ogTitle": "OID Paulsell Lateral Expansion",
+    "ogDescription": "Formwork drawings, hardware schedule and BIM model for 14 concrete structures of an irrigation canal expansion for the Oakdale Irrigation District.",
+    "ogImage": "https://res.cloudinary.com/oceanbim/image/upload/c_pad,b_white,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/oid-paulsell-gate-structures-formwork/oid-gs1-3d",
+    "h1": "OID Paulsell Lateral Expansion",
+    "published": "2026-10-08T09:00:00+00:00",
+    "modified": "2026-10-08T09:00:00+00:00",
+    "image": {
+      "url": "https://res.cloudinary.com/oceanbim/image/upload/c_pad,b_white,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/oid-paulsell-gate-structures-formwork/oid-gs1-3d",
+      "width": 1200,
+      "height": 630,
+      "caption": "3D views of the gate structure GS1 formwork"
+    },
+    "breadcrumb": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Projects",
+        "path": "/projects/"
+      },
+      {
+        "name": "OID Paulsell Lateral Expansion"
+      }
+    ]
+  },
+  "/timber-wall-formwork-ties-walers-bracing/": {
+    "kind": "post",
+    "title": "Timber Wall Formwork: Ties, Walers and Bracing",
+    "description": "How timber wall forms carry concrete pressure, how to space ties and walers, and what a wall formwork drawing should show, with three project examples.",
+    "canonical": "https://formworkforconcrete.com/timber-wall-formwork-ties-walers-bracing/",
+    "ogTitle": "Timber Wall Formwork: Ties, Walers and Bracing",
+    "ogDescription": "How timber wall forms carry concrete pressure, how to space ties and walers, and what a wall formwork drawing should show, with three project examples.",
+    "ogImage": "https://res.cloudinary.com/oceanbim/image/upload/c_pad,b_white,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/fm-woods-wtp-wall-formwork/fmw-walls-3d-phase-2-1",
+    "h1": "Timber Wall Formwork: Ties, Walers and Bracing",
+    "published": "2026-10-08T09:00:00+00:00",
+    "modified": "2026-10-08T09:00:00+00:00",
+    "image": {
+      "url": "https://res.cloudinary.com/oceanbim/image/upload/c_pad,b_white,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/fm-woods-wtp-wall-formwork/fmw-walls-3d-phase-2-1",
+      "width": 1200,
+      "height": 630,
+      "caption": "Braced timber wall forms for a water treatment plant upgrade"
+    },
+    "breadcrumb": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Timber Wall Formwork: Ties, Walers and Bracing"
+      }
+    ],
+    "article": {
+      "wordCount": 994,
+      "keywords": [
+        "#Formwork",
+        "#FormworkDesign",
+        "#WallFormwork",
+        "#TimberFormwork",
+        "#ShopDrawings",
+        "#ConcreteConstruction"
+      ],
+      "section": [
+        "Blog-post"
+      ]
+    }
+  },
+  "/slab-shoring-layout-from-drawing-to-site/": {
+    "kind": "post",
+    "title": "Slab Shoring Layout: From Drawing to Site",
+    "description": "How to lay out slab and beam shoring: deck, joists, beams and props, design loads, prop capacity and what the drawing should show, with site photos.",
+    "canonical": "https://formworkforconcrete.com/slab-shoring-layout-from-drawing-to-site/",
+    "ogTitle": "Slab Shoring Layout: From Drawing to Site",
+    "ogDescription": "How to lay out slab and beam shoring: deck, joists, beams and props, design loads, prop capacity and what the drawing should show, with site photos.",
+    "ogImage": "https://res.cloudinary.com/oceanbim/image/upload/c_fill,g_auto,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/hungry-horse-slab-shoring/hh-site-shoring-wide",
+    "h1": "Slab Shoring Layout: From Drawing to Site",
+    "published": "2026-10-08T09:00:00+00:00",
+    "modified": "2026-10-08T09:00:00+00:00",
+    "image": {
+      "url": "https://res.cloudinary.com/oceanbim/image/upload/c_fill,g_auto,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/hungry-horse-slab-shoring/hh-site-shoring-wide",
+      "width": 1200,
+      "height": 630,
+      "caption": "Steel props and timber beams supporting slab and beam formwork"
+    },
+    "breadcrumb": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Slab Shoring Layout: From Drawing to Site"
+      }
+    ],
+    "article": {
+      "wordCount": 761,
+      "keywords": [
+        "#Formwork",
+        "#FormworkDesign",
+        "#SlabFormwork",
+        "#Shoring",
+        "#ShopDrawings",
+        "#ConcreteConstruction"
+      ],
+      "section": [
+        "Blog-post"
+      ]
+    }
   }
 };

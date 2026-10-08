@@ -136,7 +136,14 @@ console.log("/sitemap.xml");
 const sm = await (await get(base + "/sitemap.xml")).text();
 const locs = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]).sort();
 const want = baseline.filter((b) => !dropped.has(b.url)).map((b) => b.url).sort();
-if (JSON.stringify(locs) !== JSON.stringify(want)) fail("/sitemap.xml", "URLs = kept baseline URLs", want, locs);
+// Every kept baseline URL must stay in the sitemap; pages added after the migration may join it, and each of them must answer 200.
+const missing = want.filter((u) => !locs.includes(u));
+if (missing.length) fail("/sitemap.xml", "every kept baseline URL listed", want, missing);
+const added = locs.filter((u) => !want.includes(u));
+for (const u of added) {
+  const res = await get(base + u.replace(PROD, ""));
+  if (res.status !== 200) fail(u, "new sitemap URL answers 200", 200, res.status);
+}
 
 // --- 404 -----------------------------------------------------------------------------------------------
 console.log("/does-not-exist/");
@@ -173,5 +180,6 @@ console.log("\nApproved differences from the baseline:");
 for (const a of approved) console.log("  - " + a);
 console.log("  - sitemap moved from /sitemap_index.xml to /sitemap.xml (old sitemap URLs redirect, checked with --redirects)");
 console.log("  - a contact form was added on /contact-us/ (#contact-form); contact buttons link to it");
+if (added.length) console.log(`  - ${added.length} page(s) added after the migration, in the sitemap and answering 200`);
 console.log(failures ? `\n${failures} FAILURE(S)` : "\nAll checks passed.");
 process.exit(failures ? 1 : 0);
