@@ -6,10 +6,12 @@ import { Markdown } from "@/components/ui/Markdown";
 import { postTemplate } from "@/content/pages";
 import { formatDate, getPosts, getProjectsBySlug, type Post } from "@/lib/content";
 
+const PINNED_POST = "formwork-design-for-a-suspended-concrete-slab";
+
 export function PostPage({ post }: { post: Post }) {
-  const related = getPosts()
-    .filter((p) => p.slug !== post.slug)
-    .slice(0, 3);
+  // Newest posts first, but the suspended slab post (most of the search traffic) is always linked from the others.
+  const others = getPosts().filter((p) => p.slug !== post.slug);
+  const related = [...others.filter((p) => p.slug === PINNED_POST), ...others.filter((p) => p.slug !== PINNED_POST)].slice(0, 3);
   return (
     <>
       <Frame className="px-[20px] pb-[70px] pt-[70px] md:px-0">

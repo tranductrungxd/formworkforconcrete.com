@@ -5,7 +5,7 @@ category: "Blog-post"
 cover: "https://formworkforconcrete.com/wp-content/uploads/2024/10/formwork-concrete-design-pourmap-2.jpg"
 coverAlt: "Concrete pour map and sequencing plan for formwork design"
 tags: ["#BIM", "#BuildingDesign", "#Concrete", "#ConcreteConstruction", "#ConstructionDrawings", "#ConstructionJoints", "#ConstructionPlanning", "#ConstructionSafety", "#Formwork", "#FormworkDesign", "#ProjectManagement", "#QualityControl", "#ShopDrawings", "#StructuralEngineering", "Construction"]
-projects: ["ajax-foundation", "kyle-dam-foundation", "formwork-preliminary-treatment-facility"]
+projects: ["chemical-storage-feed-system-formwork", "villa-turks-and-caicos-formwork", "kyle-dam-foundation"]
 ---
 In concrete construction, precision and planning are paramount. Two crucial aspects that often go hand-in-hand are **formwork shop drawings** and the **construction joint layout**.
 
@@ -82,6 +82,27 @@ Additionally, they provide areas where future expansions or modifications can be
 > We ensure every project meets high standards of quality, safety, and efficiency. Contact us today to learn how we can support your next concrete construction endeavor!
 >
 > [Contact us](/contact-us/#contact-form "button")
+
+###### A Real Formwork Shop Drawing Package
+
+What does a complete package look like? Here is the one we prepared for L7 Construction for the [chemical storage area](/projects/chemical-storage-feed-system-formwork/) of the Pineda Causeway BPS chemical system improvements in Melbourne, Florida:
+
+- **A phase overview sheet** with a 3D view of each of the four concrete pours, and lumber and wood panel schedules per pour
+- **Plans and sections per pour**, with the earlier pours shown as completed structure and the forms of phase 1 marked for reuse in phase 2
+- **Details** of the stake-and-brace supports, the slab edge forms and the plywood block-out boxes
+- **Waterstops** at the footing-to-wall joints
+
+![3D views of the four timber formwork pour phases for the chemical storage area](https://res.cloudinary.com/oceanbim/image/upload/v1791461899/formworkforconcrete.com/projects/chemical-storage-feed-system-formwork/chem-3d-pour-phases.png)
+
+The package went through the engineer's submittal review and was issued four times in three weeks as dimensions were coordinated. That is normal: plan the review time into the schedule. Keeping the drawings in a formwork model makes those revisions quick.
+
+###### From Joint Layout to Pour Map
+
+For a [two-storey villa in Turks and Caicos](/projects/villa-turks-and-caicos-formwork/), the construction joint layout became a pour map: 14 pours, each in its own colour and with its own concrete volume, about 350 cubic yards in total. The formwork drawings follow the same pours, so the crew forms exactly what will be poured next.
+
+![Colour-coded pour map of a two-storey villa with 14 pour phases](https://res.cloudinary.com/oceanbim/image/upload/v1791461906/formworkforconcrete.com/projects/villa-turks-and-caicos-formwork/villa-pour-map-overview.png)
+
+For wall forms in particular, see [Timber Wall Formwork: Ties, Walers and Bracing](/timber-wall-formwork-ties-walers-bracing/).
 
 ###### Best Practices for Formwork and Joint Planning
 

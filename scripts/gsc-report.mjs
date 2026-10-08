@@ -184,8 +184,9 @@ for (const r of queries) md.push(`| ${r.keys[0]} | ${r.clicks} | ${r.impressions
 md.push("", "## Live status of URLs with impressions (28 days)", "");
 const byStatus = live.reduce((m, l) => ((m[l.status] = (m[l.status] ?? 0) + 1), m), {});
 md.push(Object.entries(byStatus).map(([s, n]) => `${n} × ${s}`).join(", ") || "No URLs with impressions.", "");
-md.push("## Sitemaps", "", "| Sitemap | Last downloaded | Errors | Submitted / indexed |", "|---|---|---|---|");
-for (const s of sitemaps) md.push(`| ${s.path} | ${s.lastDownloaded?.slice(0, 10) ?? "pending"} | ${s.errors} | ${(s.contents ?? []).map((c) => `${c.type} ${c.submitted}/${c.indexed ?? "?"}`).join(", ")} |`);
+// The API no longer fills in the indexed counts (always 0): only what was submitted is shown.
+md.push("## Sitemaps", "", "| Sitemap | Last downloaded | Errors | Submitted |", "|---|---|---|---|");
+for (const s of sitemaps) md.push(`| ${s.path} | ${s.lastDownloaded?.slice(0, 10) ?? "pending"} | ${s.errors} | ${(s.contents ?? []).map((c) => `${c.type} ${c.submitted}`).join(", ")} |`);
 md.push("", "## Key pages in Google's index", "", "| Page | Verdict | Coverage | Last crawl |", "|---|---|---|---|");
 for (const i of inspected) md.push(`| ${i.path} | ${i.verdict} | ${i.coverage} | ${i.lastCrawl} |`);
 md.push("");
