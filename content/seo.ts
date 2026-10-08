@@ -979,5 +979,46 @@ export const seo: Record<string, SeoEntry> = {
         "Blog-post"
       ]
     }
+  },
+  "/footing-and-foundation-formwork-typical-details/": {
+    "kind": "post",
+    "title": "Footing and Foundation Formwork: Typical Details",
+    "description": "Typical footing, slab edge and foundation box formwork details from real projects, where footing forms go wrong, and what the drawing should show.",
+    "canonical": "https://formworkforconcrete.com/footing-and-foundation-formwork-typical-details/",
+    "ogTitle": "Footing and Foundation Formwork: Typical Details",
+    "ogDescription": "Typical footing, slab edge and foundation box formwork details from real projects, where footing forms go wrong, and what the drawing should show.",
+    "ogImage": "https://res.cloudinary.com/oceanbim/image/upload/c_pad,b_white,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/villa-turks-and-caicos-formwork/villa-footing-3d",
+    "h1": "Footing and Foundation Formwork: Typical Details",
+    "published": "2026-10-08T15:00:00+00:00",
+    "modified": "2026-10-08T15:00:00+00:00",
+    "image": {
+      "url": "https://res.cloudinary.com/oceanbim/image/upload/c_pad,b_white,w_1200,h_630,f_jpg,q_auto/formworkforconcrete.com/projects/villa-turks-and-caicos-formwork/villa-footing-3d",
+      "width": 1200,
+      "height": 630,
+      "caption": "Typical timber footing form with lumber supports"
+    },
+    "breadcrumb": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Footing and Foundation Formwork: Typical Details"
+      }
+    ],
+    "article": {
+      "wordCount": 819,
+      "keywords": [
+        "#Formwork",
+        "#FormworkDesign",
+        "#FootingFormwork",
+        "#FoundationFormwork",
+        "#TimberFormwork",
+        "#ConcreteConstruction"
+      ],
+      "section": [
+        "Blog-post"
+      ]
+    }
   }
 };
